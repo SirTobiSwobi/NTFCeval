@@ -1,0 +1,25 @@
+category id, category name, TP, FP, FN, precision, recall, F1
+-2, microaverage, 137, 776, 737, 0.15005476451259583, 0.15675057208237986, 0.15332960268606605
+-1, macroaverage, 137, 776, 737, 0.25548403682481485, 0.14571428571428574, 0.1855824007524457
+0, arXiv , 0, 0, 0, 0.0, 0.0, 0.0
+1, Physics , 4, 463, 6, 0.008565310492505354, 0.4, 0.016771488469601678
+2, Astrophysics , 15, 0, 35, 1.0, 0.3, 0.4615384615384615
+3, Condensed Matter , 0, 4, 10, 0.0, 0.0, 0.0
+4, General Relativity and Quantum Cosmology , 0, 0, 50, 0.0, 0.0, 0.0
+5, High Energy Physics - Experiment , 0, 0, 50, 0.0, 0.0, 0.0
+6, High Energy Physics - Lattice , 0, 0, 50, 0.0, 0.0, 0.0
+7, High Energy Physics - Phenomenology , 1, 0, 49, 1.0, 0.02, 0.0392156862745098
+8, High Energy Physics - Theory , 8, 50, 42, 0.13793103448275862, 0.16, 0.14814814814814817
+9, Mathematical Physics , 0, 0, 40, 0.0, 0.0, 0.0
+10, Nonlinear Sciences , 1, 5, 49, 0.16666666666666666, 0.02, 0.03571428571428571
+11, Adaption and Self-Organizing Systems , 0, 0, 50, 0.0, 0.0, 0.0
+12, Chaotic Dynamics , 0, 19, 10, 0.0, 0.0, 0.0
+13, Cellular Automata and Lattice Gases , 0, 0, 4, 0.0, 0.0, 0.0
+14, Pattern Formation and Solutions , 4, 2, 46, 0.6666666666666666, 0.08, 0.14285714285714285
+15, Exactly Solvable and Integrable Systems , 3, 10, 47, 0.23076923076923078, 0.06, 0.09523809523809523
+16, Nuclear Experiment , 2, 2, 48, 0.5, 0.04, 0.07407407407407407
+17, Nuclear Theory , 37, 106, 13, 0.25874125874125875, 0.74, 0.38341968911917096
+18, Quantum Physics , 0, 0, 50, 0.0, 0.0, 0.0
+19, Computer Science , 22, 9, 28, 0.7096774193548387, 0.44, 0.5432098765432098
+20, Mathematics , 34, 98, 16, 0.25757575757575757, 0.68, 0.37362637362637363
+21, Quantitative Biology , 6, 8, 44, 0.42857142857142855, 0.12, 0.1875
