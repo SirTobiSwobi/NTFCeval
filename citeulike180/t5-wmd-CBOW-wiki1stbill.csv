@@ -1,0 +1,1522 @@
+category id, category name, TP, FP, FN, precision, recall, F1
+-2, microaverage, 64, 252, 3099, 0.20253164556962025, 0.02023395510591211, 0.03679218166139696
+-1, macroaverage, 64, 252, 3099, 0.020286800664375035, 0.01870553688735507, 0.019464106128566742
+0, citeulike180 , 0, 0, 0, 0.0, 0.0, 0.0
+1, motifs , 0, 0, 7, 0.0, 0.0, 0.0
+2, networks , 0, 0, 38, 0.0, 0.0, 0.0
+3, original , 0, 0, 1, 0.0, 0.0, 0.0
+4, yeast , 0, 0, 16, 0.0, 0.0, 0.0
+5, datasets , 0, 0, 1, 0.0, 0.0, 0.0
+6, robustness , 0, 0, 2, 0.0, 0.0, 0.0
+7, engineering , 0, 0, 1, 0.0, 0.0, 0.0
+8, control , 0, 0, 3, 0.0, 0.0, 0.0
+9, review , 0, 0, 23, 0.0, 0.0, 0.0
+10, survey , 0, 0, 2, 0.0, 0.0, 0.0
+11, strogatz , 0, 0, 1, 0.0, 0.0, 0.0
+12, navigation , 0, 0, 1, 0.0, 0.0, 0.0
+13, citeulike , 0, 0, 2, 0.0, 0.0, 0.0
+14, dynamics , 0, 0, 7, 0.0, 0.0, 0.0
+15, social bookmarking , 0, 0, 1, 0.0, 0.0, 0.0
+16, social networks , 0, 0, 9, 0.0, 0.0, 0.0
+17, email , 0, 0, 2, 0.0, 0.0, 0.0
+18, search , 0, 0, 5, 0.0, 0.0, 0.0
+19, sysbio , 0, 0, 8, 0.0, 0.0, 0.0
+20, small world , 0, 0, 5, 0.0, 0.0, 0.0
+21, similarity , 0, 1, 2, 0.0, 0.0, 0.0
+22, complexity , 0, 0, 12, 0.0, 0.0, 0.0
+23, clustering , 0, 0, 8, 0.0, 0.0, 0.0
+24, microarray , 0, 0, 15, 0.0, 0.0, 0.0
+25, method , 0, 2, 6, 0.0, 0.0, 0.0
+26, blast , 0, 0, 2, 0.0, 0.0, 0.0
+27, sequence , 0, 0, 8, 0.0, 0.0, 0.0
+28, dna , 0, 0, 8, 0.0, 0.0, 0.0
+29, normalization , 1, 0, 0, 1.0, 1.0, 1.0
+30, rma , 0, 0, 1, 0.0, 0.0, 0.0
+31, genotype phenotype , 0, 0, 1, 0.0, 0.0, 0.0
+32, gene expression , 0, 0, 20, 0.0, 0.0, 0.0
+33, text mining , 0, 0, 2, 0.0, 0.0, 0.0
+34, human , 0, 0, 21, 0.0, 0.0, 0.0
+35, whole genome , 0, 0, 3, 0.0, 0.0, 0.0
+36, unsupervised learning , 0, 0, 1, 0.0, 0.0, 0.0
+37, nlp , 0, 0, 3, 0.0, 0.0, 0.0
+38, media , 0, 0, 2, 0.0, 0.0, 0.0
+39, credibility , 0, 0, 1, 0.0, 0.0, 0.0
+40, citation context , 0, 0, 1, 0.0, 0.0, 0.0
+41, ultraconserved , 0, 0, 1, 0.0, 0.0, 0.0
+42, uce , 0, 0, 1, 0.0, 0.0, 0.0
+43, genome , 0, 0, 26, 0.0, 0.0, 0.0
+44, phenotype , 0, 0, 2, 0.0, 0.0, 0.0
+45, genetics , 0, 0, 16, 0.0, 0.0, 0.0
+46, variation , 0, 0, 4, 0.0, 0.0, 0.0
+47, population dynamics , 0, 0, 1, 0.0, 0.0, 0.0
+48, population , 0, 0, 2, 0.0, 0.0, 0.0
+49, systemsbiology , 0, 0, 5, 0.0, 0.0, 0.0
+50, popcorn , 0, 0, 2, 0.0, 0.0, 0.0
+51, alignment , 0, 0, 8, 0.0, 0.0, 0.0
+52, phyloalignment , 0, 0, 1, 0.0, 0.0, 0.0
+53, test , 0, 0, 1, 0.0, 0.0, 0.0
+54, phylogeny , 0, 0, 5, 0.0, 0.0, 0.0
+55, evolution , 0, 0, 49, 0.0, 0.0, 0.0
+56, protein evolution , 0, 0, 1, 0.0, 0.0, 0.0
+57, selection , 0, 0, 6, 0.0, 0.0, 0.0
+58, conserved , 0, 0, 3, 0.0, 0.0, 0.0
+59, protein structure , 0, 0, 6, 0.0, 0.0, 0.0
+60, statistical coupling analysis , 0, 0, 1, 0.0, 0.0, 0.0
+61, correlated mutations , 0, 0, 1, 0.0, 0.0, 0.0
+62, protein sequence , 0, 0, 1, 0.0, 0.0, 0.0
+63, comparative modeling , 0, 0, 2, 0.0, 0.0, 0.0
+64, protein interaction , 0, 0, 1, 0.0, 0.0, 0.0
+65, pca , 1, 0, 0, 1.0, 1.0, 1.0
+66, neural networks , 0, 0, 1, 0.0, 0.0, 0.0
+67, statistics , 0, 0, 13, 0.0, 0.0, 0.0
+68, algorithms , 0, 0, 8, 0.0, 0.0, 0.0
+69, r , 0, 0, 2, 0.0, 0.0, 0.0
+70, folding , 0, 0, 3, 0.0, 0.0, 0.0
+71, coevolution , 0, 0, 1, 0.0, 0.0, 0.0
+72, contact map , 0, 0, 1, 0.0, 0.0, 0.0
+73, active site , 0, 0, 1, 0.0, 0.0, 0.0
+74, function prediction , 0, 1, 1, 0.0, 0.0, 0.0
+75, theory , 0, 0, 3, 0.0, 0.0, 0.0
+76, systems biology , 4, 2, 18, 0.6666666666666666, 0.18181818181818182, 0.28571428571428575
+77, gene networks , 0, 0, 4, 0.0, 0.0, 0.0
+78, modeling , 0, 0, 8, 0.0, 0.0, 0.0
+79, network motifs , 0, 0, 5, 0.0, 0.0, 0.0
+80, infant , 0, 0, 3, 0.0, 0.0, 0.0
+81, false belief , 0, 0, 1, 0.0, 0.0, 0.0
+82, belief , 0, 0, 2, 0.0, 0.0, 0.0
+83, psychology , 0, 0, 2, 0.0, 0.0, 0.0
+84, theory of mind , 0, 0, 2, 0.0, 0.0, 0.0
+85, cognition , 0, 0, 6, 0.0, 0.0, 0.0
+86, primate , 0, 0, 2, 0.0, 0.0, 0.0
+87, rationality , 0, 0, 2, 0.0, 0.0, 0.0
+88, word , 0, 0, 1, 0.0, 0.0, 0.0
+89, language evolution , 0, 0, 4, 0.0, 0.0, 0.0
+90, word frequency , 1, 0, 0, 1.0, 1.0, 1.0
+91, language , 0, 0, 8, 0.0, 0.0, 0.0
+92, linguistics , 0, 0, 5, 0.0, 0.0, 0.0
+93, development , 0, 0, 5, 0.0, 0.0, 0.0
+94, brain , 0, 0, 7, 0.0, 0.0, 0.0
+95, language acquisition , 0, 0, 4, 0.0, 0.0, 0.0
+96, learning , 0, 0, 15, 0.0, 0.0, 0.0
+97, artificial grammar , 0, 0, 1, 0.0, 0.0, 0.0
+98, child , 0, 0, 1, 0.0, 0.0, 0.0
+99, computational linguistics , 0, 0, 1, 0.0, 0.0, 0.0
+100, machine learning , 0, 0, 4, 0.0, 0.0, 0.0
+101, grammar , 0, 0, 2, 0.0, 0.0, 0.0
+102, imitation , 0, 0, 2, 0.0, 0.0, 0.0
+103, tms , 0, 0, 1, 0.0, 0.0, 0.0
+104, action , 0, 0, 2, 0.0, 0.0, 0.0
+105, mirror neuron , 0, 0, 1, 0.0, 0.0, 0.0
+106, bayesian , 0, 0, 7, 0.0, 0.0, 0.0
+107, reasoning , 0, 0, 2, 0.0, 0.0, 0.0
+108, causality , 0, 0, 1, 0.0, 0.0, 0.0
+109, rat , 0, 0, 6, 0.0, 0.0, 0.0
+110, recursion , 0, 0, 2, 0.0, 0.0, 0.0
+111, songbird , 0, 0, 1, 0.0, 0.0, 0.0
+112, syntax , 0, 0, 2, 0.0, 0.0, 0.0
+113, commentary , 0, 0, 1, 0.0, 0.0, 0.0
+114, bird , 0, 0, 2, 0.0, 0.0, 0.0
+115, number , 1, 4, 0, 0.2, 1.0, 0.33333333333333337
+116, sapir whorf hypothesis , 0, 0, 1, 0.0, 0.0, 0.0
+117, tool , 0, 0, 2, 0.0, 0.0, 0.0
+118, apes , 0, 0, 1, 0.0, 0.0, 0.0
+119, scrub jay , 1, 0, 0, 1.0, 1.0, 1.0
+120, connectionist , 0, 0, 1, 0.0, 0.0, 0.0
+121, genomics , 0, 0, 22, 0.0, 0.0, 0.0
+122, metabolic networks , 0, 0, 1, 0.0, 0.0, 0.0
+123, bioinformatics , 0, 0, 30, 0.0, 0.0, 0.0
+124, proteomics , 0, 0, 3, 0.0, 0.0, 0.0
+125, data integration , 0, 0, 2, 0.0, 0.0, 0.0
+126, reverse engineering , 0, 0, 1, 0.0, 0.0, 0.0
+127, cannotea , 0, 0, 1, 0.0, 0.0, 0.0
+128, metadata , 0, 0, 1, 0.0, 0.0, 0.0
+129, tagging , 0, 0, 3, 0.0, 0.0, 0.0
+130, social informatics , 0, 0, 1, 0.0, 0.0, 0.0
+131, folksonomies , 0, 0, 2, 0.0, 0.0, 0.0
+132, bookmarking , 0, 0, 1, 0.0, 0.0, 0.0
+133, regulatory , 0, 0, 8, 0.0, 0.0, 0.0
+134, motif , 0, 0, 6, 0.0, 0.0, 0.0
+135, expression , 0, 0, 29, 0.0, 0.0, 0.0
+136, mammalian , 0, 0, 1, 0.0, 0.0, 0.0
+137, transcription , 0, 0, 25, 0.0, 0.0, 0.0
+138, interactome , 0, 0, 2, 0.0, 0.0, 0.0
+139, proteome , 0, 0, 3, 0.0, 0.0, 0.0
+140, network , 0, 0, 45, 0.0, 0.0, 0.0
+141, vertebrates , 0, 0, 4, 0.0, 0.0, 0.0
+142, primates , 0, 0, 4, 0.0, 0.0, 0.0
+143, data mining , 0, 0, 5, 0.0, 0.0, 0.0
+144, proteins , 0, 0, 9, 0.0, 0.0, 0.0
+145, humans , 0, 2, 4, 0.0, 0.0, 0.0
+146, phylogenomics , 0, 0, 3, 0.0, 0.0, 0.0
+147, amino acid , 0, 3, 1, 0.0, 0.0, 0.0
+148, animals , 1, 1, 3, 0.5, 0.25, 0.3333333333333333
+149, rna , 0, 0, 18, 0.0, 0.0, 0.0
+150, methods , 0, 0, 8, 0.0, 0.0, 0.0
+151, homology , 0, 0, 1, 0.0, 0.0, 0.0
+152, hominidae , 0, 0, 1, 0.0, 0.0, 0.0
+153, mammals , 0, 0, 8, 0.0, 0.0, 0.0
+154, likelihood , 0, 0, 1, 0.0, 0.0, 0.0
+155, inference , 1, 0, 4, 1.0, 0.2, 0.33333333333333337
+156, software , 0, 0, 5, 0.0, 0.0, 0.0
+157, databases , 0, 0, 1, 0.0, 0.0, 0.0
+158, programming , 0, 0, 1, 0.0, 0.0, 0.0
+159, rats , 0, 0, 3, 0.0, 0.0, 0.0
+160, rodents , 0, 0, 2, 0.0, 0.0, 0.0
+161, protein networks , 0, 0, 3, 0.0, 0.0, 0.0
+162, quaternary structure , 0, 0, 1, 0.0, 0.0, 0.0
+163, ppi review , 0, 0, 2, 0.0, 0.0, 0.0
+164, ppi evolution , 0, 0, 1, 0.0, 0.0, 0.0
+165, classics , 0, 0, 2, 0.0, 0.0, 0.0
+166, st yr report , 0, 0, 2, 0.0, 0.0, 0.0
+167, sequence alignment , 0, 0, 3, 0.0, 0.0, 0.0
+168, interface properties , 0, 0, 1, 0.0, 0.0, 0.0
+169, modelling interactions , 0, 0, 1, 0.0, 0.0, 0.0
+170, snps , 0, 0, 4, 0.0, 0.0, 0.0
+171, scale free , 0, 0, 4, 0.0, 0.0, 0.0
+172, structures , 0, 0, 1, 0.0, 0.0, 0.0
+173, general rna , 0, 0, 2, 0.0, 0.0, 0.0
+174, analysis , 0, 1, 12, 0.0, 0.0, 0.0
+175, phylogenetics , 0, 0, 2, 0.0, 0.0, 0.0
+176, reviews , 0, 0, 2, 0.0, 0.0, 0.0
+177, molecular , 0, 0, 6, 0.0, 0.0, 0.0
+178, mirna , 0, 0, 4, 0.0, 0.0, 0.0
+179, structure alignment , 0, 0, 1, 0.0, 0.0, 0.0
+180, secondary structure , 2, 2, 3, 0.5, 0.4, 0.4444444444444445
+181, protein folding , 0, 0, 2, 0.0, 0.0, 0.0
+182, structural genomics , 0, 0, 1, 0.0, 0.0, 0.0
+183, computational biology , 0, 0, 2, 0.0, 0.0, 0.0
+184, ncrna , 0, 0, 7, 0.0, 0.0, 0.0
+185, classification , 0, 0, 4, 0.0, 0.0, 0.0
+186, structure , 0, 0, 18, 0.0, 0.0, 0.0
+187, biophysics , 0, 0, 1, 0.0, 0.0, 0.0
+188, structure prediction , 0, 0, 3, 0.0, 0.0, 0.0
+189, statistical potentials , 0, 0, 1, 0.0, 0.0, 0.0
+190, genes , 0, 0, 1, 0.0, 0.0, 0.0
+191, views , 0, 0, 1, 0.0, 0.0, 0.0
+192, protein interactions , 0, 0, 2, 0.0, 0.0, 0.0
+193, disease , 2, 1, 4, 0.6666666666666666, 0.3333333333333333, 0.4444444444444444
+194, drug , 0, 0, 1, 0.0, 0.0, 0.0
+195, stem cells , 1, 3, 0, 0.25, 1.0, 0.4
+196, net paper , 0, 0, 2, 0.0, 0.0, 0.0
+197, network motif , 0, 0, 5, 0.0, 0.0, 0.0
+198, memory , 0, 0, 3, 0.0, 0.0, 0.0
+199, basal ganglia , 1, 1, 3, 0.5, 0.25, 0.3333333333333333
+200, explore exploit , 0, 0, 2, 0.0, 0.0, 0.0
+201, reinforcement learning , 0, 0, 8, 0.0, 0.0, 0.0
+202, striatum , 0, 0, 4, 0.0, 0.0, 0.0
+203, prefrontal cortex , 0, 1, 4, 0.0, 0.0, 0.0
+204, information , 0, 0, 5, 0.0, 0.0, 0.0
+205, internet , 0, 0, 3, 0.0, 0.0, 0.0
+206, comunication , 0, 0, 1, 0.0, 0.0, 0.0
+207, wikipedia , 0, 0, 1, 0.0, 0.0, 0.0
+208, article , 0, 0, 2, 0.0, 0.0, 0.0
+209, wiki , 0, 0, 1, 0.0, 0.0, 0.0
+210, comparison , 0, 0, 3, 0.0, 0.0, 0.0
+211, incentives , 0, 0, 2, 0.0, 0.0, 0.0
+212, collaborative communities , 0, 0, 1, 0.0, 0.0, 0.0
+213, science , 0, 0, 4, 0.0, 0.0, 0.0
+214, informatica , 0, 0, 1, 0.0, 0.0, 0.0
+215, research , 0, 0, 2, 0.0, 0.0, 0.0
+216, nature , 0, 0, 2, 0.0, 0.0, 0.0
+217, quality , 0, 0, 2, 0.0, 0.0, 0.0
+218, sociology , 0, 0, 3, 0.0, 0.0, 0.0
+219, quantifying , 0, 0, 1, 0.0, 0.0, 0.0
+220, cell , 0, 0, 5, 0.0, 0.0, 0.0
+221, auto correlation , 0, 0, 1, 0.0, 0.0, 0.0
+222, community , 0, 0, 4, 0.0, 0.0, 0.0
+223, collaboration , 0, 0, 3, 0.0, 0.0, 0.0
+224, complex network , 0, 0, 2, 0.0, 0.0, 0.0
+225, k clique , 0, 1, 1, 0.0, 0.0, 0.0
+226, social network , 0, 0, 2, 0.0, 0.0, 0.0
+227, percolation , 0, 0, 1, 0.0, 0.0, 0.0
+228, socialnetworking , 0, 0, 1, 0.0, 0.0, 0.0
+229, networks dynamic , 0, 0, 1, 0.0, 0.0, 0.0
+230, phone , 0, 0, 1, 0.0, 0.0, 0.0
+231, cooperation , 0, 0, 2, 0.0, 0.0, 0.0
+232, networktheory , 0, 0, 1, 0.0, 0.0, 0.0
+233, quantitative , 0, 0, 1, 0.0, 0.0, 0.0
+234, social dynamics , 0, 0, 1, 0.0, 0.0, 0.0
+235, social , 0, 0, 9, 0.0, 0.0, 0.0
+236, social analysis , 0, 0, 2, 0.0, 0.0, 0.0
+237, taggingpres , 0, 0, 1, 0.0, 0.0, 0.0
+238, scientific , 0, 0, 2, 0.0, 0.0, 0.0
+239, generations , 0, 0, 1, 0.0, 0.0, 0.0
+240, swarm , 0, 0, 1, 0.0, 0.0, 0.0
+241, sociophysics , 0, 0, 1, 0.0, 0.0, 0.0
+242, cultural evolution , 0, 0, 2, 0.0, 0.0, 0.0
+243, group , 0, 0, 1, 0.0, 0.0, 0.0
+244, social structure , 0, 0, 1, 0.0, 0.0, 0.0
+245, bottlenecks , 0, 0, 1, 0.0, 0.0, 0.0
+246, phenotypic , 0, 0, 1, 0.0, 0.0, 0.0
+247, on , 0, 0, 1, 0.0, 0.0, 0.0
+248, ancient , 0, 0, 1, 0.0, 0.0, 0.0
+249, complex , 0, 0, 8, 0.0, 0.0, 0.0
+250, evolving , 0, 0, 1, 0.0, 0.0, 0.0
+251, biological model , 0, 0, 2, 0.0, 0.0, 0.0
+252, modelling , 0, 0, 4, 0.0, 0.0, 0.0
+253, systems , 0, 0, 8, 0.0, 0.0, 0.0
+254, emergence , 0, 0, 2, 0.0, 0.0, 0.0
+255, real data , 0, 0, 1, 0.0, 0.0, 0.0
+256, nowak , 0, 0, 2, 0.0, 0.0, 0.0
+257, verb , 0, 0, 1, 0.0, 0.0, 0.0
+258, math , 0, 0, 6, 0.0, 0.0, 0.0
+259, frequency , 0, 0, 1, 0.0, 0.0, 0.0
+260, chomsky , 0, 0, 1, 0.0, 0.0, 0.0
+261, regulation , 0, 0, 18, 0.0, 0.0, 0.0
+262, promoter , 3, 0, 1, 1.0, 0.75, 0.8571428571428571
+263, perturbed , 0, 0, 1, 0.0, 0.0, 0.0
+264, protein , 0, 0, 20, 0.0, 0.0, 0.0
+265, metabolic , 0, 0, 3, 0.0, 0.0, 0.0
+266, interaction , 0, 0, 12, 0.0, 0.0, 0.0
+267, biology , 0, 1, 13, 0.0, 0.0, 0.0
+268, integration , 0, 0, 4, 0.0, 0.0, 0.0
+269, gene , 10, 9, 16, 0.5263157894736842, 0.38461538461538464, 0.4444444444444444
+270, stochastic , 0, 0, 6, 0.0, 0.0, 0.0
+271, connotea , 0, 0, 1, 0.0, 0.0, 0.0
+272, society , 0, 0, 3, 0.0, 0.0, 0.0
+273, nature publishing group , 0, 0, 1, 0.0, 0.0, 0.0
+274, social software , 0, 0, 2, 0.0, 0.0, 0.0
+275, cmc , 0, 0, 1, 0.0, 0.0, 0.0
+276, digital divide , 0, 0, 1, 0.0, 0.0, 0.0
+277, identity , 0, 0, 1, 0.0, 0.0, 0.0
+278, social interaction , 0, 0, 1, 0.0, 0.0, 0.0
+279, online behavior , 0, 0, 1, 0.0, 0.0, 0.0
+280, virtual , 0, 0, 1, 0.0, 0.0, 0.0
+281, social capital , 0, 0, 1, 0.0, 0.0, 0.0
+282, internet surveys , 0, 0, 1, 0.0, 0.0, 0.0
+283, haptic , 0, 0, 1, 0.0, 0.0, 0.0
+284, visual , 1, 0, 3, 1.0, 0.25, 0.4
+285, proprioceptive , 0, 0, 1, 0.0, 0.0, 0.0
+286, optimal , 0, 0, 1, 0.0, 0.0, 0.0
+287, motor , 0, 1, 2, 0.0, 0.0, 0.0
+288, sensorimotor , 0, 0, 1, 0.0, 0.0, 0.0
+289, transcriptome , 0, 0, 8, 0.0, 0.0, 0.0
+290, tfbs , 0, 0, 4, 0.0, 0.0, 0.0
+291, over representation , 0, 0, 1, 0.0, 0.0, 0.0
+292, annotation , 0, 0, 4, 0.0, 0.0, 0.0
+293, inflammation , 0, 0, 1, 0.0, 0.0, 0.0
+294, breast , 0, 0, 1, 0.0, 0.0, 0.0
+295, cancer , 2, 0, 0, 1.0, 1.0, 1.0
+296, survival , 0, 1, 1, 0.0, 0.0, 0.0
+297, combinatorics , 0, 0, 1, 0.0, 0.0, 0.0
+298, applied math , 0, 0, 3, 0.0, 0.0, 0.0
+299, genome variation , 0, 0, 5, 0.0, 0.0, 0.0
+300, evolutionary genomics , 0, 0, 6, 0.0, 0.0, 0.0
+301, genotype to phenotype , 0, 0, 5, 0.0, 0.0, 0.0
+302, copy number , 0, 0, 2, 0.0, 0.0, 0.0
+303, evo devo , 0, 0, 3, 0.0, 0.0, 0.0
+304, informatics , 0, 0, 7, 0.0, 0.0, 0.0
+305, nat selection tests , 0, 0, 1, 0.0, 0.0, 0.0
+306, modeling and simulation , 0, 1, 3, 0.0, 0.0, 0.0
+307, whole genomic , 0, 0, 4, 0.0, 0.0, 0.0
+308, evolutionary proteomics , 0, 0, 3, 0.0, 0.0, 0.0
+309, evolvability , 0, 0, 3, 0.0, 0.0, 0.0
+310, gene gene , 0, 58, 1, 0.0, 0.0, 0.0
+311, diseaseomics , 0, 0, 1, 0.0, 0.0, 0.0
+312, heredity , 0, 0, 1, 0.0, 0.0, 0.0
+313, orthologs paralogs , 0, 0, 1, 0.0, 0.0, 0.0
+314, molecular signaling , 0, 0, 3, 0.0, 0.0, 0.0
+315, molecular general , 0, 0, 2, 0.0, 0.0, 0.0
+316, ecophysiology , 0, 0, 1, 0.0, 0.0, 0.0
+317, adaptive systems , 0, 0, 3, 0.0, 0.0, 0.0
+318, morphogenesis , 0, 0, 3, 0.0, 0.0, 0.0
+319, anthropometry , 0, 0, 1, 0.0, 0.0, 0.0
+320, evolution of intelligence , 0, 0, 1, 0.0, 0.0, 0.0
+321, pop gen , 0, 0, 1, 0.0, 0.0, 0.0
+322, evo computation , 0, 0, 3, 0.0, 0.0, 0.0
+323, animal model , 0, 0, 1, 0.0, 0.0, 0.0
+324, biological inspired modeling , 0, 0, 1, 0.0, 0.0, 0.0
+325, bistability , 0, 0, 2, 0.0, 0.0, 0.0
+326, homeotic theory , 0, 0, 1, 0.0, 0.0, 0.0
+327, regulatory cascades , 0, 0, 3, 0.0, 0.0, 0.0
+328, genome structure , 0, 0, 1, 0.0, 0.0, 0.0
+329, brain anatomy , 0, 0, 1, 0.0, 0.0, 0.0
+330, neuro tech , 0, 0, 1, 0.0, 0.0, 0.0
+331, neuro connectivity , 0, 0, 1, 0.0, 0.0, 0.0
+332, graph theory , 0, 0, 2, 0.0, 0.0, 0.0
+333, cog neuro , 0, 0, 1, 0.0, 0.0, 0.0
+334, perception , 0, 0, 2, 0.0, 0.0, 0.0
+335, sensory systems , 0, 0, 1, 0.0, 0.0, 0.0
+336, multisensory integration , 0, 0, 1, 0.0, 0.0, 0.0
+337, time oriented science , 0, 0, 1, 0.0, 0.0, 0.0
+338, basalganglia , 0, 0, 2, 0.0, 0.0, 0.0
+339, striatothalamocortical , 0, 0, 1, 0.0, 0.0, 0.0
+340, reversal , 0, 0, 1, 0.0, 0.0, 0.0
+341, dlpfc , 0, 0, 1, 0.0, 0.0, 0.0
+342, graphs , 0, 0, 8, 0.0, 0.0, 0.0
+343, coherence , 0, 0, 1, 0.0, 0.0, 0.0
+344, lfp , 0, 0, 1, 0.0, 0.0, 0.0
+345, lip , 0, 0, 3, 0.0, 0.0, 0.0
+346, mt , 0, 0, 1, 0.0, 0.0, 0.0
+347, attention , 2, 0, 3, 1.0, 0.4, 0.5714285714285715
+348, inhibition , 0, 0, 1, 0.0, 0.0, 0.0
+349, vta , 0, 0, 1, 0.0, 0.0, 0.0
+350, snc , 0, 0, 1, 0.0, 0.0, 0.0
+351, habenula , 0, 0, 1, 0.0, 0.0, 0.0
+352, prediction , 0, 0, 14, 0.0, 0.0, 0.0
+353, monkey , 0, 0, 8, 0.0, 0.0, 0.0
+354, eligibilitytrace , 0, 0, 1, 0.0, 0.0, 0.0
+355, td model , 0, 0, 2, 0.0, 0.0, 0.0
+356, dopamine , 2, 0, 3, 1.0, 0.4, 0.5714285714285715
+357, reinforcementlearning , 0, 0, 4, 0.0, 0.0, 0.0
+358, reward , 0, 0, 9, 0.0, 0.0, 0.0
+359, omnibus , 0, 0, 1, 0.0, 0.0, 0.0
+360, combination , 0, 0, 1, 0.0, 0.0, 0.0
+361, amygdala , 0, 0, 3, 0.0, 0.0, 0.0
+362, ambiguity , 1, 0, 1, 1.0, 0.5, 0.6666666666666666
+363, uncertainty , 0, 0, 2, 0.0, 0.0, 0.0
+364, aversive , 0, 0, 1, 0.0, 0.0, 0.0
+365, reinforcement , 0, 0, 4, 0.0, 0.0, 0.0
+366, punishment , 0, 0, 1, 0.0, 0.0, 0.0
+367, airpuff , 0, 0, 1, 0.0, 0.0, 0.0
+368, ventralstriatum , 0, 0, 1, 0.0, 0.0, 0.0
+369, neuroanatomy , 0, 0, 3, 0.0, 0.0, 0.0
+370, decisionmaking , 0, 0, 5, 0.0, 0.0, 0.0
+371, eyemovements , 0, 0, 1, 0.0, 0.0, 0.0
+372, estimation , 0, 0, 1, 0.0, 0.0, 0.0
+373, cuecombination , 0, 0, 1, 0.0, 0.0, 0.0
+374, psychophysics , 0, 0, 1, 0.0, 0.0, 0.0
+375, mle , 0, 0, 1, 0.0, 0.0, 0.0
+376, z paper strainer , 0, 0, 1, 0.0, 0.0, 0.0
+377, assembly , 0, 0, 2, 0.0, 0.0, 0.0
+378, bacteria , 0, 0, 3, 0.0, 0.0, 0.0
+379, x bioinf software , 0, 0, 1, 0.0, 0.0, 0.0
+380, a exam , 0, 0, 2, 0.0, 0.0, 0.0
+381, neurophysiology , 0, 0, 8, 0.0, 0.0, 0.0
+382, prefrontal , 0, 0, 3, 0.0, 0.0, 0.0
+383, fef , 0, 0, 1, 0.0, 0.0, 0.0
+384, discounting , 0, 0, 1, 0.0, 0.0, 0.0
+385, choicebehavior , 0, 0, 1, 0.0, 0.0, 0.0
+386, neuroeconomics , 0, 0, 5, 0.0, 0.0, 0.0
+387, fmri , 0, 0, 4, 0.0, 0.0, 0.0
+388, neuroimaging , 0, 0, 2, 0.0, 0.0, 0.0
+389, sleep , 0, 0, 1, 0.0, 0.0, 0.0
+390, electrophysiology , 0, 0, 3, 0.0, 0.0, 0.0
+391, hippocampus , 0, 0, 1, 0.0, 0.0, 0.0
+392, classical conditioning , 0, 0, 1, 0.0, 0.0, 0.0
+393, vision , 0, 0, 3, 0.0, 0.0, 0.0
+394, implicit , 0, 0, 1, 0.0, 0.0, 0.0
+395, ventral striatum , 1, 1, 0, 0.5, 1.0, 0.6666666666666666
+396, pg , 0, 0, 1, 0.0, 0.0, 0.0
+397, twophoton , 0, 0, 1, 0.0, 0.0, 0.0
+398, optical imaging , 0, 0, 1, 0.0, 0.0, 0.0
+399, localcircuit , 0, 0, 1, 0.0, 0.0, 0.0
+400, francesca , 0, 0, 1, 0.0, 0.0, 0.0
+401, publishing , 0, 0, 1, 0.0, 0.0, 0.0
+402, xml , 0, 0, 1, 0.0, 0.0, 0.0
+403, web , 0, 0, 3, 0.0, 0.0, 0.0
+404, neural , 0, 0, 2, 0.0, 0.0, 0.0
+405, data , 0, 0, 4, 0.0, 0.0, 0.0
+406, neuralnetwork , 0, 0, 1, 0.0, 0.0, 0.0
+407, yigal , 0, 0, 2, 0.0, 0.0, 0.0
+408, kristina , 0, 0, 5, 0.0, 0.0, 0.0
+409, joo seuk , 0, 0, 3, 0.0, 0.0, 0.0
+410, errorbars , 0, 0, 1, 0.0, 0.0, 0.0
+411, bob , 0, 0, 1, 0.0, 0.0, 0.0
+412, visionlab , 0, 0, 1, 0.0, 0.0, 0.0
+413, heather , 0, 0, 4, 0.0, 0.0, 0.0
+414, arash , 0, 0, 2, 0.0, 0.0, 0.0
+415, oscillations , 0, 0, 1, 0.0, 0.0, 0.0
+416, rate code , 0, 0, 1, 0.0, 0.0, 0.0
+417, jessica , 0, 0, 2, 0.0, 0.0, 0.0
+418, gestures , 0, 0, 1, 0.0, 0.0, 0.0
+419, visual memory , 0, 0, 1, 0.0, 0.0, 0.0
+420, binding , 0, 0, 8, 0.0, 0.0, 0.0
+421, phd , 0, 0, 5, 0.0, 0.0, 0.0
+422, validation , 0, 0, 1, 0.0, 0.0, 0.0
+423, classic , 0, 0, 4, 0.0, 0.0, 0.0
+424, gene regulation , 0, 0, 9, 0.0, 0.0, 0.0
+425, block , 0, 0, 2, 0.0, 0.0, 0.0
+426, embl , 0, 0, 2, 0.0, 0.0, 0.0
+427, formats , 0, 0, 1, 0.0, 0.0, 0.0
+428, experimental , 1, 0, 3, 1.0, 0.25, 0.4
+429, microrna , 0, 0, 5, 0.0, 0.0, 0.0
+430, target , 0, 0, 2, 0.0, 0.0, 0.0
+431, secondary , 0, 0, 8, 0.0, 0.0, 0.0
+432, scfg , 0, 0, 1, 0.0, 0.0, 0.0
+433, x ray , 0, 0, 1, 0.0, 0.0, 0.0
+434, crystallography , 0, 0, 1, 0.0, 0.0, 0.0
+435, ab initio , 0, 0, 1, 0.0, 0.0, 0.0
+436, star , 0, 0, 1, 0.0, 0.0, 0.0
+437, nmr , 1, 0, 0, 1.0, 1.0, 1.0
+438, tiling , 0, 0, 1, 0.0, 0.0, 0.0
+439, noncoding , 0, 0, 5, 0.0, 0.0, 0.0
+440, mouse , 0, 0, 4, 0.0, 0.0, 0.0
+441, mutual , 0, 0, 1, 0.0, 0.0, 0.0
+442, d , 0, 0, 2, 0.0, 0.0, 0.0
+443, factor , 0, 0, 3, 0.0, 0.0, 0.0
+444, pirna , 0, 0, 1, 0.0, 0.0, 0.0
+445, blog , 0, 0, 2, 0.0, 0.0, 0.0
+446, newmedia , 0, 0, 1, 0.0, 0.0, 0.0
+447, image , 0, 0, 1, 0.0, 0.0, 0.0
+448, ethnography , 0, 0, 1, 0.0, 0.0, 0.0
+449, hcm , 0, 0, 1, 0.0, 0.0, 0.0
+450, bayes , 0, 0, 1, 0.0, 0.0, 0.0
+451, dt , 0, 0, 3, 0.0, 0.0, 0.0
+452, function , 0, 0, 4, 0.0, 0.0, 0.0
+453, visualization , 0, 0, 2, 0.0, 0.0, 0.0
+454, expresssiondata , 0, 0, 1, 0.0, 0.0, 0.0
+455, domain , 0, 0, 2, 0.0, 0.0, 0.0
+456, sec background sysbio , 0, 0, 2, 0.0, 0.0, 0.0
+457, overview , 0, 0, 2, 0.0, 0.0, 0.0
+458, graphclustering , 0, 0, 1, 0.0, 0.0, 0.0
+459, proteininteraction , 0, 0, 1, 0.0, 0.0, 0.0
+460, signaling , 0, 0, 1, 0.0, 0.0, 0.0
+461, dataintegration , 0, 0, 1, 0.0, 0.0, 0.0
+462, stochasticity , 0, 0, 3, 0.0, 0.0, 0.0
+463, stem , 0, 0, 1, 0.0, 0.0, 0.0
+464, ultra conserved sequences , 0, 0, 1, 0.0, 0.0, 0.0
+465, human genetics , 0, 0, 2, 0.0, 0.0, 0.0
+466, human genome , 0, 0, 3, 0.0, 0.0, 0.0
+467, comparative analysis , 0, 0, 1, 0.0, 0.0, 0.0
+468, encode , 0, 0, 2, 0.0, 0.0, 0.0
+469, human evolution , 0, 0, 2, 0.0, 0.0, 0.0
+470, human variation , 0, 0, 1, 0.0, 0.0, 0.0
+471, genome duplication , 0, 0, 2, 0.0, 0.0, 0.0
+472, gene duplication , 1, 14, 0, 0.06666666666666667, 1.0, 0.125
+473, yeast genomics , 0, 0, 1, 0.0, 0.0, 0.0
+474, rat genome , 0, 0, 1, 0.0, 0.0, 0.0
+475, eukaryotic , 0, 0, 1, 0.0, 0.0, 0.0
+476, expression profiling , 0, 0, 2, 0.0, 0.0, 0.0
+477, sirna , 0, 0, 1, 0.0, 0.0, 0.0
+478, rnai , 0, 0, 1, 0.0, 0.0, 0.0
+479, biological , 0, 0, 5, 0.0, 0.0, 0.0
+480, for , 0, 0, 1, 0.0, 0.0, 0.0
+481, design , 0, 0, 3, 0.0, 0.0, 0.0
+482, transcriptional , 0, 0, 2, 0.0, 0.0, 0.0
+483, vocabulary , 0, 0, 1, 0.0, 0.0, 0.0
+484, images , 0, 0, 1, 0.0, 0.0, 0.0
+485, blogs , 0, 0, 1, 0.0, 0.0, 0.0
+486, hypermedia , 0, 0, 1, 0.0, 0.0, 0.0
+487, infants , 3, 0, 0, 1.0, 1.0, 1.0
+488, beliefs , 0, 0, 1, 0.0, 0.0, 0.0
+489, scalinglaw , 0, 0, 1, 0.0, 0.0, 0.0
+490, hierarchy , 0, 0, 1, 0.0, 0.0, 0.0
+491, cluster , 0, 0, 2, 0.0, 0.0, 0.0
+492, eni , 0, 0, 2, 0.0, 0.0, 0.0
+493, scalefree , 0, 0, 1, 0.0, 0.0, 0.0
+494, modularity , 1, 1, 3, 0.5, 0.25, 0.3333333333333333
+495, simulation , 0, 0, 4, 0.0, 0.0, 0.0
+496, metabolism , 0, 0, 4, 0.0, 0.0, 0.0
+497, y h , 0, 6, 1, 0.0, 0.0, 0.0
+498, chemical , 0, 0, 1, 0.0, 0.0, 0.0
+499, activity profile , 0, 0, 1, 0.0, 0.0, 0.0
+500, bioassay , 0, 0, 1, 0.0, 0.0, 0.0
+501, sub graph pattern , 0, 0, 1, 0.0, 0.0, 0.0
+502, scaling law , 0, 0, 1, 0.0, 0.0, 0.0
+503, growth , 0, 0, 1, 0.0, 0.0, 0.0
+504, power law , 0, 0, 1, 0.0, 0.0, 0.0
+505, preferantial attachment , 0, 0, 1, 0.0, 0.0, 0.0
+506, model , 0, 0, 13, 0.0, 0.0, 0.0
+507, non coding , 0, 0, 4, 0.0, 0.0, 0.0
+508, high throughput , 0, 0, 1, 0.0, 0.0, 0.0
+509, large scale , 0, 0, 1, 0.0, 0.0, 0.0
+510, bio informatics , 0, 0, 1, 0.0, 0.0, 0.0
+511, machinery , 0, 0, 1, 0.0, 0.0, 0.0
+512, complexes , 0, 0, 1, 0.0, 0.0, 0.0
+513, body , 1, 0, 0, 1.0, 1.0, 1.0
+514, plan , 0, 0, 1, 0.0, 0.0, 0.0
+515, animal , 0, 0, 3, 0.0, 0.0, 0.0
+516, reference , 0, 0, 2, 0.0, 0.0, 0.0
+517, ms , 0, 0, 1, 0.0, 0.0, 0.0
+518, datamining , 0, 0, 4, 0.0, 0.0, 0.0
+519, mutagenesis , 0, 0, 2, 0.0, 0.0, 0.0
+520, neutral , 0, 0, 1, 0.0, 0.0, 0.0
+521, hypothesis , 0, 0, 1, 0.0, 0.0, 0.0
+522, utr , 0, 0, 1, 0.0, 0.0, 0.0
+523, epigenetic , 0, 0, 1, 0.0, 0.0, 0.0
+524, fantom , 0, 0, 1, 0.0, 0.0, 0.0
+525, genettic interactions , 0, 0, 3, 0.0, 0.0, 0.0
+526, p p , 0, 0, 4, 0.0, 0.0, 0.0
+527, ppi , 0, 0, 7, 0.0, 0.0, 0.0
+528, pan , 0, 0, 1, 0.0, 0.0, 0.0
+529, homo , 0, 0, 2, 0.0, 0.0, 0.0
+530, tf , 0, 0, 3, 0.0, 0.0, 0.0
+531, noise , 0, 0, 6, 0.0, 0.0, 0.0
+532, detection , 0, 0, 2, 0.0, 0.0, 0.0
+533, polymorhpism , 0, 0, 1, 0.0, 0.0, 0.0
+534, snp , 0, 0, 5, 0.0, 0.0, 0.0
+535, arrays , 0, 0, 2, 0.0, 0.0, 0.0
+536, transcriptional regulation , 0, 0, 2, 0.0, 0.0, 0.0
+537, computer science , 0, 0, 1, 0.0, 0.0, 0.0
+538, web graph , 0, 0, 3, 0.0, 0.0, 0.0
+539, arabidopsis , 1, 0, 1, 1.0, 0.5, 0.6666666666666666
+540, history , 0, 0, 2, 0.0, 0.0, 0.0
+541, printed , 0, 0, 4, 0.0, 0.0, 0.0
+542, graph , 0, 0, 6, 0.0, 0.0, 0.0
+543, omics , 0, 0, 1, 0.0, 0.0, 0.0
+544, parameter , 0, 0, 1, 0.0, 0.0, 0.0
+545, optimization , 0, 0, 3, 0.0, 0.0, 0.0
+546, pathway , 0, 0, 2, 0.0, 0.0, 0.0
+547, promoters , 0, 0, 1, 0.0, 0.0, 0.0
+548, hapmap , 0, 0, 2, 0.0, 0.0, 0.0
+549, cnv , 0, 0, 2, 0.0, 0.0, 0.0
+550, breast cancer , 0, 0, 1, 0.0, 0.0, 0.0
+551, gene set analysis , 0, 20, 1, 0.0, 0.0, 0.0
+552, online communities , 0, 0, 1, 0.0, 0.0, 0.0
+553, elowitz , 0, 0, 1, 0.0, 0.0, 0.0
+554, chemotaxis , 0, 0, 1, 0.0, 0.0, 0.0
+555, general model , 0, 0, 1, 0.0, 0.0, 0.0
+556, artefacts , 0, 0, 1, 0.0, 0.0, 0.0
+557, hobbit , 0, 0, 1, 0.0, 0.0, 0.0
+558, flores , 0, 0, 1, 0.0, 0.0, 0.0
+559, indonesia , 0, 0, 2, 0.0, 0.0, 0.0
+560, archaeology , 0, 0, 1, 0.0, 0.0, 0.0
+561, dating , 0, 0, 1, 0.0, 0.0, 0.0
+562, drosophila , 0, 0, 4, 0.0, 0.0, 0.0
+563, comparative , 0, 0, 5, 0.0, 0.0, 0.0
+564, fly , 0, 0, 2, 0.0, 0.0, 0.0
+565, algorithm , 1, 2, 5, 0.3333333333333333, 0.16666666666666666, 0.2222222222222222
+566, toolkit , 0, 0, 1, 0.0, 0.0, 0.0
+567, constraint , 0, 0, 2, 0.0, 0.0, 0.0
+568, evolutionary , 0, 1, 4, 0.0, 0.0, 0.0
+569, selex , 0, 0, 1, 0.0, 0.0, 0.0
+570, non mendelian inheritance , 0, 0, 1, 0.0, 0.0, 0.0
+571, network structure , 0, 0, 1, 0.0, 0.0, 0.0
+572, network biological , 0, 0, 1, 0.0, 0.0, 0.0
+573, gene structure , 0, 0, 1, 0.0, 0.0, 0.0
+574, evolution eukaryote , 0, 0, 1, 0.0, 0.0, 0.0
+575, speciation , 0, 0, 1, 0.0, 0.0, 0.0
+576, polyploidy , 0, 0, 1, 0.0, 0.0, 0.0
+577, unread , 0, 0, 1, 0.0, 0.0, 0.0
+578, codeword design , 0, 0, 1, 0.0, 0.0, 0.0
+579, dna binding , 0, 0, 1, 0.0, 0.0, 0.0
+580, hairpin , 0, 0, 1, 0.0, 0.0, 0.0
+581, computation , 0, 0, 5, 0.0, 0.0, 0.0
+582, mathematics , 0, 0, 2, 0.0, 0.0, 0.0
+583, languages , 0, 0, 1, 0.0, 0.0, 0.0
+584, endorsements , 0, 0, 1, 0.0, 0.0, 0.0
+585, introns , 0, 0, 1, 0.0, 0.0, 0.0
+586, environment , 0, 0, 2, 0.0, 0.0, 0.0
+587, mutation , 0, 0, 2, 0.0, 0.0, 0.0
+588, pre cambrian , 0, 0, 1, 0.0, 0.0, 0.0
+589, thesis , 0, 0, 6, 0.0, 0.0, 0.0
+590, nsf , 0, 0, 1, 0.0, 0.0, 0.0
+591, ai , 0, 0, 2, 0.0, 0.0, 0.0
+592, chip , 0, 0, 5, 0.0, 0.0, 0.0
+593, imagery , 0, 0, 1, 0.0, 0.0, 0.0
+594, motorlearning , 0, 0, 2, 0.0, 0.0, 0.0
+595, context , 0, 0, 1, 0.0, 0.0, 0.0
+596, apfc , 0, 0, 1, 0.0, 0.0, 0.0
+597, yea , 0, 0, 1, 0.0, 0.0, 0.0
+598, gene fusion , 0, 0, 1, 0.0, 0.0, 0.0
+599, tree comparison , 0, 0, 1, 0.0, 0.0, 0.0
+600, euk , 0, 0, 1, 0.0, 0.0, 0.0
+601, energy , 0, 0, 2, 0.0, 0.0, 0.0
+602, free , 0, 0, 1, 0.0, 0.0, 0.0
+603, pseudoknots , 0, 0, 2, 0.0, 0.0, 0.0
+604, mfe , 0, 0, 1, 0.0, 0.0, 0.0
+605, kinetics , 0, 0, 1, 0.0, 0.0, 0.0
+606, partition , 0, 0, 1, 0.0, 0.0, 0.0
+607, round robin , 0, 0, 6, 0.0, 0.0, 0.0
+608, association mapping , 0, 0, 2, 0.0, 0.0, 0.0
+609, eisen journal club , 0, 0, 10, 0.0, 0.0, 0.0
+610, rich presented , 0, 0, 3, 0.0, 0.0, 0.0
+611, in depth , 0, 0, 2, 0.0, 0.0, 0.0
+612, in depth suggestion , 0, 0, 3, 0.0, 0.0, 0.0
+613, stuart presented , 0, 0, 2, 0.0, 0.0, 0.0
+614, emily presented , 0, 0, 1, 0.0, 0.0, 0.0
+615, cis regulatory elements , 0, 0, 3, 0.0, 0.0, 0.0
+616, alignment accuracy , 0, 0, 1, 0.0, 0.0, 0.0
+617, population genetics , 0, 0, 1, 0.0, 0.0, 0.0
+618, test for selection , 0, 0, 1, 0.0, 0.0, 0.0
+619, regulatory polymorphism , 0, 0, 1, 0.0, 0.0, 0.0
+620, regulatory evolution , 0, 0, 1, 0.0, 0.0, 0.0
+621, expression divergence , 0, 0, 1, 0.0, 0.0, 0.0
+622, cis vs trans , 0, 0, 1, 0.0, 0.0, 0.0
+623, hybrid , 0, 0, 1, 0.0, 0.0, 0.0
+624, expression polymorphism , 0, 0, 1, 0.0, 0.0, 0.0
+625, chip chip , 0, 0, 3, 0.0, 0.0, 0.0
+626, duplication , 0, 0, 2, 0.0, 0.0, 0.0
+627, rapid , 0, 0, 1, 0.0, 0.0, 0.0
+628, loss , 0, 0, 1, 0.0, 0.0, 0.0
+629, qtl , 0, 0, 2, 0.0, 0.0, 0.0
+630, regulatory network , 0, 0, 2, 0.0, 0.0, 0.0
+631, eqtl , 0, 0, 3, 0.0, 0.0, 0.0
+632, rate , 0, 3, 1, 0.0, 0.0, 0.0
+633, turnover , 0, 0, 1, 0.0, 0.0, 0.0
+634, mammal , 0, 0, 1, 0.0, 0.0, 0.0
+635, angela presented , 0, 0, 1, 0.0, 0.0, 0.0
+636, bio , 0, 0, 9, 0.0, 0.0, 0.0
+637, bib , 0, 0, 1, 0.0, 0.0, 0.0
+638, literature mining , 0, 0, 1, 0.0, 0.0, 0.0
+639, pubmed mining , 0, 0, 1, 0.0, 0.0, 0.0
+640, txtmining , 0, 0, 1, 0.0, 0.0, 0.0
+641, onto , 0, 0, 1, 0.0, 0.0, 0.0
+642, msc , 0, 0, 1, 0.0, 0.0, 0.0
+643, plasticity , 1, 0, 1, 1.0, 0.5, 0.6666666666666666
+644, sca , 0, 0, 1, 0.0, 0.0, 0.0
+645, major proposal , 0, 0, 2, 0.0, 0.0, 0.0
+646, fdr , 0, 0, 1, 0.0, 0.0, 0.0
+647, cis trans , 0, 1, 2, 0.0, 0.0, 0.0
+648, ecoli , 0, 0, 1, 0.0, 0.0, 0.0
+649, protein protein , 0, 0, 8, 0.0, 0.0, 0.0
+650, essentiality , 0, 0, 1, 0.0, 0.0, 0.0
+651, footprinting , 0, 0, 1, 0.0, 0.0, 0.0
+652, ethics , 0, 0, 1, 0.0, 0.0, 0.0
+653, emotion , 0, 0, 1, 0.0, 0.0, 0.0
+654, hci , 0, 0, 1, 0.0, 0.0, 0.0
+655, prediction error , 0, 0, 1, 0.0, 0.0, 0.0
+656, decision making , 0, 0, 7, 0.0, 0.0, 0.0
+657, economics , 0, 0, 5, 0.0, 0.0, 0.0
+658, temporal discounting , 0, 0, 1, 0.0, 0.0, 0.0
+659, dorsal striatum , 0, 0, 1, 0.0, 0.0, 0.0
+660, decision , 0, 0, 4, 0.0, 0.0, 0.0
+661, social cognition , 0, 0, 1, 0.0, 0.0, 0.0
+662, distributed , 0, 0, 2, 0.0, 0.0, 0.0
+663, practical , 0, 0, 1, 0.0, 0.0, 0.0
+664, non linguistic rationality , 0, 0, 1, 0.0, 0.0, 0.0
+665, behavior , 0, 0, 2, 0.0, 0.0, 0.0
+666, neuroscience , 0, 0, 9, 0.0, 0.0, 0.0
+667, risk , 0, 0, 1, 0.0, 0.0, 0.0
+668, human processing , 0, 0, 1, 0.0, 0.0, 0.0
+669, decsion making , 0, 0, 1, 0.0, 0.0, 0.0
+670, future , 0, 0, 1, 0.0, 0.0, 0.0
+671, planning , 0, 0, 1, 0.0, 0.0, 0.0
+672, tool use , 0, 0, 1, 0.0, 0.0, 0.0
+673, call , 0, 0, 1, 0.0, 0.0, 0.0
+674, exploration , 0, 0, 1, 0.0, 0.0, 0.0
+675, choice , 0, 0, 3, 0.0, 0.0, 0.0
+676, cingulate cortex , 0, 0, 1, 0.0, 0.0, 0.0
+677, contribution , 0, 0, 2, 0.0, 0.0, 0.0
+678, exchange , 0, 0, 1, 0.0, 0.0, 0.0
+679, storage , 0, 0, 1, 0.0, 0.0, 0.0
+680, observational learning , 0, 0, 1, 0.0, 0.0, 0.0
+681, food , 0, 0, 1, 0.0, 0.0, 0.0
+682, strategy , 0, 0, 1, 0.0, 0.0, 0.0
+683, srcub jays , 0, 0, 1, 0.0, 0.0, 0.0
+684, strategic , 0, 0, 1, 0.0, 0.0, 0.0
+685, statistical , 0, 0, 3, 0.0, 0.0, 0.0
+686, tom , 0, 0, 1, 0.0, 0.0, 0.0
+687, folksonomy , 0, 0, 2, 0.0, 0.0, 0.0
+688, scholarly communication , 0, 0, 1, 0.0, 0.0, 0.0
+689, copyright , 0, 0, 1, 0.0, 0.0, 0.0
+690, creative commons , 0, 0, 1, 0.0, 0.0, 0.0
+691, collaborative , 0, 0, 2, 0.0, 0.0, 0.0
+692, dynamic , 0, 0, 4, 0.0, 0.0, 0.0
+693, songbirds , 0, 0, 1, 0.0, 0.0, 0.0
+694, birds , 0, 0, 1, 0.0, 0.0, 0.0
+695, sapir whorf , 0, 0, 1, 0.0, 0.0, 0.0
+696, counting , 0, 0, 1, 0.0, 0.0, 0.0
+697, numbers , 0, 0, 1, 0.0, 0.0, 0.0
+698, cpprosem , 0, 0, 1, 0.0, 0.0, 0.0
+699, commons , 0, 0, 1, 0.0, 0.0, 0.0
+700, diss prop , 0, 0, 1, 0.0, 0.0, 0.0
+701, game theory , 0, 0, 1, 0.0, 0.0, 0.0
+702, political science , 0, 0, 1, 0.0, 0.0, 0.0
+703, caudate , 0, 0, 1, 0.0, 0.0, 0.0
+704, pfc , 0, 0, 5, 0.0, 0.0, 0.0
+705, stimulusresponseassociation , 0, 0, 1, 0.0, 0.0, 0.0
+706, rt , 0, 0, 1, 0.0, 0.0, 0.0
+707, refinement , 0, 0, 1, 0.0, 0.0, 0.0
+708, simulation methods , 0, 0, 1, 0.0, 0.0, 0.0
+709, suboptimal alignment , 0, 0, 1, 0.0, 0.0, 0.0
+710, rotamers , 0, 0, 1, 0.0, 0.0, 0.0
+711, molecular complexes , 0, 0, 1, 0.0, 0.0, 0.0
+712, flexible protein , 0, 0, 1, 0.0, 0.0, 0.0
+713, nma , 0, 0, 1, 0.0, 0.0, 0.0
+714, kinesin , 0, 0, 1, 0.0, 0.0, 0.0
+715, docking , 0, 0, 1, 0.0, 0.0, 0.0
+716, geneexpression , 0, 0, 2, 0.0, 0.0, 0.0
+717, pharmacology , 0, 0, 1, 0.0, 0.0, 0.0
+718, side chain , 0, 0, 1, 0.0, 0.0, 0.0
+719, packing , 0, 0, 1, 0.0, 0.0, 0.0
+720, publicgood , 0, 0, 1, 0.0, 0.0, 0.0
+721, imt , 0, 0, 1, 0.0, 0.0, 0.0
+722, gametheory , 0, 0, 2, 0.0, 0.0, 0.0
+723, altruism , 0, 0, 1, 0.0, 0.0, 0.0
+724, tragedycommons , 0, 0, 2, 0.0, 0.0, 0.0
+725, socialscience , 0, 0, 1, 0.0, 0.0, 0.0
+726, culture , 0, 0, 3, 0.0, 0.0, 0.0
+727, precursor , 0, 0, 1, 0.0, 0.0, 0.0
+728, protein dna interactions , 0, 0, 1, 0.0, 0.0, 0.0
+729, molbio , 0, 0, 2, 0.0, 0.0, 0.0
+730, mesophysics , 0, 0, 2, 0.0, 0.0, 0.0
+731, affect , 0, 0, 1, 0.0, 0.0, 0.0
+732, macroeconomics , 0, 0, 1, 0.0, 0.0, 0.0
+733, politicalscience , 0, 0, 1, 0.0, 0.0, 0.0
+734, copyrights , 0, 0, 1, 0.0, 0.0, 0.0
+735, law , 0, 0, 1, 0.0, 0.0, 0.0
+736, network dynamics , 0, 0, 2, 0.0, 0.0, 0.0
+737, collective action , 0, 0, 1, 0.0, 0.0, 0.0
+738, synthetic biology , 0, 0, 3, 0.0, 0.0, 0.0
+739, computational , 0, 0, 3, 0.0, 0.0, 0.0
+740, neuronal , 0, 0, 1, 0.0, 0.0, 0.0
+741, cortex , 0, 0, 7, 0.0, 0.0, 0.0
+742, long evans , 0, 0, 1, 0.0, 0.0, 0.0
+743, cat , 0, 0, 1, 0.0, 0.0, 0.0
+744, two photon , 0, 0, 1, 0.0, 0.0, 0.0
+745, imaging , 0, 0, 3, 0.0, 0.0, 0.0
+746, column , 0, 0, 1, 0.0, 0.0, 0.0
+747, calcium , 0, 0, 1, 0.0, 0.0, 0.0
+748, immunology , 0, 0, 1, 0.0, 0.0, 0.0
+749, interactions , 3, 7, 4, 0.3, 0.42857142857142855, 0.3529411764705882
+750, physical , 0, 0, 2, 0.0, 0.0, 0.0
+751, system , 0, 0, 1, 0.0, 0.0, 0.0
+752, integrative , 0, 0, 2, 0.0, 0.0, 0.0
+753, genome wide , 0, 0, 3, 0.0, 0.0, 0.0
+754, haplotype , 0, 0, 1, 0.0, 0.0, 0.0
+755, i , 0, 0, 1, 0.0, 0.0, 0.0
+756, grammar context free , 0, 0, 1, 0.0, 0.0, 0.0
+757, rule , 0, 0, 2, 0.0, 0.0, 0.0
+758, algorithm adios , 0, 0, 1, 0.0, 0.0, 0.0
+759, motif extraction , 0, 0, 1, 0.0, 0.0, 0.0
+760, learning unsupervised , 0, 0, 1, 0.0, 0.0, 0.0
+761, search path , 1, 0, 0, 1.0, 1.0, 1.0
+762, theory of unconscious thought , 0, 0, 1, 0.0, 0.0, 0.0
+763, effect deliberation without attention , 0, 0, 1, 0.0, 0.0, 0.0
+764, deliberation , 0, 0, 1, 0.0, 0.0, 0.0
+765, thought , 0, 0, 1, 0.0, 0.0, 0.0
+766, consciousness , 0, 0, 1, 0.0, 0.0, 0.0
+767, rna world , 0, 0, 1, 0.0, 0.0, 0.0
+768, lethality , 0, 0, 1, 0.0, 0.0, 0.0
+769, centrality , 0, 0, 2, 0.0, 0.0, 0.0
+770, small world networks , 0, 0, 1, 0.0, 0.0, 0.0
+771, cellular , 0, 0, 2, 0.0, 0.0, 0.0
+772, collaborative tagging , 0, 0, 1, 0.0, 0.0, 0.0
+773, tag clouds , 0, 0, 1, 0.0, 0.0, 0.0
+774, functional annotation , 0, 0, 2, 0.0, 0.0, 0.0
+775, signature , 1, 0, 1, 1.0, 0.5, 0.6666666666666666
+776, map , 0, 0, 2, 0.0, 0.0, 0.0
+777, connectivity , 0, 0, 3, 0.0, 0.0, 0.0
+778, social navigation , 0, 0, 1, 0.0, 0.0, 0.0
+779, quals , 0, 0, 2, 0.0, 0.0, 0.0
+780, cs , 0, 0, 1, 0.0, 0.0, 0.0
+781, dimensionality reduction , 0, 0, 1, 0.0, 0.0, 0.0
+782, socialnetworks , 0, 0, 2, 0.0, 0.0, 0.0
+783, dynamism , 0, 0, 1, 0.0, 0.0, 0.0
+784, patterns , 0, 0, 2, 0.0, 0.0, 0.0
+785, molecular motors , 0, 0, 1, 0.0, 0.0, 0.0
+786, myosin , 1, 0, 0, 1.0, 1.0, 1.0
+787, protein dynamics , 0, 0, 1, 0.0, 0.0, 0.0
+788, bioinf methods , 0, 0, 1, 0.0, 0.0, 0.0
+789, protein design , 0, 0, 1, 0.0, 0.0, 0.0
+790, neural net , 0, 0, 1, 0.0, 0.0, 0.0
+791, association , 0, 0, 3, 0.0, 0.0, 0.0
+792, conservation , 0, 0, 3, 0.0, 0.0, 0.0
+793, msa , 0, 0, 7, 0.0, 0.0, 0.0
+794, acceleration , 0, 0, 3, 0.0, 0.0, 0.0
+795, popgen , 0, 0, 2, 0.0, 0.0, 0.0
+796, nonhuman , 0, 0, 1, 0.0, 0.0, 0.0
+797, anlab , 0, 0, 1, 0.0, 0.0, 0.0
+798, ur bcs , 0, 0, 1, 0.0, 0.0, 0.0
+799, statistical learning , 0, 0, 3, 0.0, 0.0, 0.0
+800, rules , 0, 0, 2, 0.0, 0.0, 0.0
+801, positive , 0, 0, 2, 0.0, 0.0, 0.0
+802, structural , 0, 0, 1, 0.0, 0.0, 0.0
+803, hierarhical , 0, 0, 1, 0.0, 0.0, 0.0
+804, time , 1, 6, 0, 0.14285714285714285, 1.0, 0.25
+805, s , 0, 53, 1, 0.0, 0.0, 0.0
+806, statistical power , 0, 0, 1, 0.0, 0.0, 0.0
+807, genecircuits , 0, 0, 1, 0.0, 0.0, 0.0
+808, genevariation , 0, 0, 1, 0.0, 0.0, 0.0
+809, avano lab , 0, 0, 1, 0.0, 0.0, 0.0
+810, syntheticbiology , 0, 0, 2, 0.0, 0.0, 0.0
+811, geneticnetworks , 0, 0, 1, 0.0, 0.0, 0.0
+812, bivoc , 0, 0, 1, 0.0, 0.0, 0.0
+813, literature based discovery , 0, 0, 1, 0.0, 0.0, 0.0
+814, scientist , 0, 0, 1, 0.0, 0.0, 0.0
+815, robot , 0, 0, 2, 0.0, 0.0, 0.0
+816, automation , 0, 0, 1, 0.0, 0.0, 0.0
+817, array , 0, 0, 3, 0.0, 0.0, 0.0
+818, collins lab , 0, 0, 1, 0.0, 0.0, 0.0
+819, collins , 0, 0, 1, 0.0, 0.0, 0.0
+820, monkeys , 0, 0, 3, 0.0, 0.0, 0.0
+821, synchronization , 0, 0, 2, 0.0, 0.0, 0.0
+822, lateral habenula , 0, 0, 1, 0.0, 0.0, 0.0
+823, physiology , 0, 0, 1, 0.0, 0.0, 0.0
+824, rate coding , 0, 0, 1, 0.0, 0.0, 0.0
+825, consolidation , 0, 0, 2, 0.0, 0.0, 0.0
+826, mutant mice , 0, 0, 1, 0.0, 0.0, 0.0
+827, c fos , 0, 0, 1, 0.0, 0.0, 0.0
+828, retrieval , 0, 0, 1, 0.0, 0.0, 0.0
+829, action selection , 0, 0, 1, 0.0, 0.0, 0.0
+830, habit , 0, 0, 1, 0.0, 0.0, 0.0
+831, cis regulation , 0, 0, 3, 0.0, 0.0, 0.0
+832, reconstruction , 0, 0, 4, 0.0, 0.0, 0.0
+833, resource , 0, 0, 1, 0.0, 0.0, 0.0
+834, agents , 0, 0, 1, 0.0, 0.0, 0.0
+835, institutions , 0, 0, 1, 0.0, 0.0, 0.0
+836, sustainability , 0, 0, 2, 0.0, 0.0, 0.0
+837, resourcemanagement , 0, 0, 1, 0.0, 0.0, 0.0
+838, neuron , 0, 0, 4, 0.0, 0.0, 0.0
+839, intro , 0, 0, 3, 0.0, 0.0, 0.0
+840, informationtheory , 0, 0, 1, 0.0, 0.0, 0.0
+841, cas , 0, 0, 1, 0.0, 0.0, 0.0
+842, parsimony , 0, 0, 1, 0.0, 0.0, 0.0
+843, mendelian inheritance , 0, 0, 1, 0.0, 0.0, 0.0
+844, inheritance , 0, 0, 1, 0.0, 0.0, 0.0
+845, hierarchical , 0, 0, 1, 0.0, 0.0, 0.0
+846, noncoding rna , 0, 0, 2, 0.0, 0.0, 0.0
+847, rhetoric , 0, 0, 1, 0.0, 0.0, 0.0
+848, citation analysis , 0, 0, 1, 0.0, 0.0, 0.0
+849, discourse analysis , 0, 0, 1, 0.0, 0.0, 0.0
+850, community detection , 0, 0, 1, 0.0, 0.0, 0.0
+851, empirical , 0, 0, 2, 0.0, 0.0, 0.0
+852, game , 0, 0, 1, 0.0, 0.0, 0.0
+853, subgroups , 0, 0, 1, 0.0, 0.0, 0.0
+854, community structure , 0, 0, 1, 0.0, 0.0, 0.0
+855, toxicogenomics , 0, 0, 1, 0.0, 0.0, 0.0
+856, infant speech perception , 0, 0, 1, 0.0, 0.0, 0.0
+857, lexical development , 0, 0, 1, 0.0, 0.0, 0.0
+858, word learning , 0, 0, 1, 0.0, 0.0, 0.0
+859, language acquistion , 0, 0, 1, 0.0, 0.0, 0.0
+860, artificial intelligence , 0, 0, 2, 0.0, 0.0, 0.0
+861, mirna precursor , 0, 0, 1, 0.0, 0.0, 0.0
+862, pseudoknot , 0, 0, 1, 0.0, 0.0, 0.0
+863, solexa , 0, 0, 1, 0.0, 0.0, 0.0
+864, chipchip , 0, 0, 1, 0.0, 0.0, 0.0
+865, ofc , 0, 0, 1, 0.0, 0.0, 0.0
+866, exploration exploitation , 0, 0, 1, 0.0, 0.0, 0.0
+867, ips , 0, 0, 1, 0.0, 0.0, 0.0
+868, autoencoder , 0, 0, 1, 0.0, 0.0, 0.0
+869, neural network , 0, 0, 1, 0.0, 0.0, 0.0
+870, visual cortex , 1, 6, 0, 0.14285714285714285, 1.0, 0.25
+871, columnar organization , 0, 0, 1, 0.0, 0.0, 0.0
+872, bio inspired , 0, 0, 1, 0.0, 0.0, 0.0
+873, infotaxis , 0, 0, 1, 0.0, 0.0, 0.0
+874, coupled oscillator , 0, 0, 1, 0.0, 0.0, 0.0
+875, complex networks , 0, 0, 5, 0.0, 0.0, 0.0
+876, fractality , 0, 0, 1, 0.0, 0.0, 0.0
+877, complex systems , 0, 5, 1, 0.0, 0.0, 0.0
+878, chip seq , 0, 0, 1, 0.0, 0.0, 0.0
+879, tfs , 0, 0, 4, 0.0, 0.0, 0.0
+880, metabolite , 0, 0, 1, 0.0, 0.0, 0.0
+881, small molecule , 0, 0, 1, 0.0, 0.0, 0.0
+882, functional , 0, 3, 2, 0.0, 0.0, 0.0
+883, small , 0, 0, 2, 0.0, 0.0, 0.0
+884, expression regulation , 0, 0, 2, 0.0, 0.0, 0.0
+885, genetic circuits , 0, 0, 1, 0.0, 0.0, 0.0
+886, associative memory , 0, 0, 1, 0.0, 0.0, 0.0
+887, transgenic , 0, 0, 1, 0.0, 0.0, 0.0
+888, p , 0, 0, 2, 0.0, 0.0, 0.0
+889, morphology , 0, 0, 2, 0.0, 0.0, 0.0
+890, l and m , 0, 0, 1, 0.0, 0.0, 0.0
+891, columns , 0, 0, 1, 0.0, 0.0, 0.0
+892, anatomy , 0, 0, 2, 0.0, 0.0, 0.0
+893, circuits , 0, 0, 2, 0.0, 0.0, 0.0
+894, v , 0, 0, 2, 0.0, 0.0, 0.0
+895, theoretical , 0, 0, 1, 0.0, 0.0, 0.0
+896, coexpression , 0, 0, 1, 0.0, 0.0, 0.0
+897, gsea , 0, 0, 1, 0.0, 0.0, 0.0
+898, go , 0, 0, 1, 0.0, 0.0, 0.0
+899, atlas , 0, 0, 1, 0.0, 0.0, 0.0
+900, metastudy , 0, 0, 1, 0.0, 0.0, 0.0
+901, casp , 0, 0, 1, 0.0, 0.0, 0.0
+902, pdb , 0, 0, 1, 0.0, 0.0, 0.0
+903, dendrites , 0, 0, 1, 0.0, 0.0, 0.0
+904, spines , 0, 0, 1, 0.0, 0.0, 0.0
+905, capacity , 0, 0, 1, 0.0, 0.0, 0.0
+906, property , 0, 0, 1, 0.0, 0.0, 0.0
+907, digital , 0, 0, 1, 0.0, 0.0, 0.0
+908, policy , 0, 0, 2, 0.0, 0.0, 0.0
+909, rights , 0, 1, 1, 0.0, 0.0, 0.0
+910, intellectual , 0, 0, 1, 0.0, 0.0, 0.0
+911, exploring , 0, 0, 1, 0.0, 0.0, 0.0
+912, synteny , 0, 0, 1, 0.0, 0.0, 0.0
+913, flies , 0, 0, 3, 0.0, 0.0, 0.0
+914, comparative genomics , 0, 0, 6, 0.0, 0.0, 0.0
+915, genome paper , 0, 0, 3, 0.0, 0.0, 0.0
+916, gene finding , 0, 0, 1, 0.0, 0.0, 0.0
+917, genome annotation , 0, 0, 1, 0.0, 0.0, 0.0
+918, bioperl , 0, 0, 1, 0.0, 0.0, 0.0
+919, perl , 0, 0, 1, 0.0, 0.0, 0.0
+920, we know nothing , 0, 0, 1, 0.0, 0.0, 0.0
+921, neuroconcept , 0, 0, 1, 0.0, 0.0, 0.0
+922, lgn , 0, 0, 1, 0.0, 0.0, 0.0
+923, retina , 0, 0, 1, 0.0, 0.0, 0.0
+924, genomepaper , 0, 0, 2, 0.0, 0.0, 0.0
+925, tez , 0, 0, 2, 0.0, 0.0, 0.0
+926, moral reasoning , 0, 0, 1, 0.0, 0.0, 0.0
+927, moral , 0, 0, 1, 0.0, 0.0, 0.0
+928, graph mining , 0, 0, 1, 0.0, 0.0, 0.0
+929, dynamic network , 0, 0, 1, 0.0, 0.0, 0.0
+930, dynamic network analysis , 0, 0, 1, 0.0, 0.0, 0.0
+931, gene expr , 0, 1, 2, 0.0, 0.0, 0.0
+932, single cell , 0, 0, 1, 0.0, 0.0, 0.0
+933, droso , 0, 0, 2, 0.0, 0.0, 0.0
+934, te , 0, 0, 2, 0.0, 0.0, 0.0
+935, rpt , 0, 0, 1, 0.0, 0.0, 0.0
+936, system primates , 0, 0, 2, 0.0, 0.0, 0.0
+937, tech motif analysis , 0, 0, 1, 0.0, 0.0, 0.0
+938, system mouse , 0, 0, 2, 0.0, 0.0, 0.0
+939, tech phylogenetic comparison , 0, 0, 2, 0.0, 0.0, 0.0
+940, key genome , 0, 0, 2, 0.0, 0.0, 0.0
+941, key systems biology , 0, 0, 1, 0.0, 0.0, 0.0
+942, key robustness , 0, 0, 1, 0.0, 0.0, 0.0
+943, type review , 0, 0, 1, 0.0, 0.0, 0.0
+944, key regulatory network , 0, 0, 1, 0.0, 0.0, 0.0
+945, system drosophilidae , 0, 0, 1, 0.0, 0.0, 0.0
+946, key gene expression , 0, 0, 2, 0.0, 0.0, 0.0
+947, key molecular evolution , 0, 0, 2, 0.0, 0.0, 0.0
+948, tech qtl , 0, 0, 1, 0.0, 0.0, 0.0
+949, system yeast , 0, 0, 1, 0.0, 0.0, 0.0
+950, tech population genetics , 0, 0, 1, 0.0, 0.0, 0.0
+951, tech microarray , 0, 0, 1, 0.0, 0.0, 0.0
+952, allostery , 0, 0, 1, 0.0, 0.0, 0.0
+953, cooperativity , 0, 0, 1, 0.0, 0.0, 0.0
+954, network alignment , 0, 0, 1, 0.0, 0.0, 0.0
+955, tools , 0, 0, 4, 0.0, 0.0, 0.0
+956, network properties , 0, 0, 1, 0.0, 0.0, 0.0
+957, network topology , 0, 0, 1, 0.0, 0.0, 0.0
+958, book , 0, 0, 3, 0.0, 0.0, 0.0
+959, scale free networks , 0, 0, 4, 0.0, 0.0, 0.0
+960, communities , 0, 0, 2, 0.0, 0.0, 0.0
+961, fractals , 0, 0, 1, 0.0, 0.0, 0.0
+962, untranslated , 0, 0, 1, 0.0, 0.0, 0.0
+963, regions , 0, 0, 1, 0.0, 0.0, 0.0
+964, micrornas , 0, 0, 1, 0.0, 0.0, 0.0
+965, organ , 0, 0, 1, 0.0, 0.0, 0.0
+966, specificity , 0, 0, 1, 0.0, 0.0, 0.0
+967, singlecell , 0, 0, 1, 0.0, 0.0, 0.0
+968, moleculedetection , 0, 0, 1, 0.0, 0.0, 0.0
+969, microfluidics , 0, 0, 1, 0.0, 0.0, 0.0
+970, methodspaper , 0, 0, 3, 0.0, 0.0, 0.0
+971, deletion , 0, 1, 1, 0.0, 0.0, 0.0
+972, tap , 0, 0, 2, 0.0, 0.0, 0.0
+973, ht , 0, 0, 1, 0.0, 0.0, 0.0
+974, tacqa , 0, 0, 1, 0.0, 0.0, 0.0
+975, fluctuations , 0, 0, 4, 0.0, 0.0, 0.0
+976, experiment , 0, 0, 3, 0.0, 0.0, 0.0
+977, gene circuits , 0, 0, 1, 0.0, 0.0, 0.0
+978, single molecule , 0, 0, 1, 0.0, 0.0, 0.0
+979, bursting , 0, 0, 1, 0.0, 0.0, 0.0
+980, profile , 0, 0, 1, 0.0, 0.0, 0.0
+981, veer , 0, 0, 1, 0.0, 0.0, 0.0
+982, deep , 0, 0, 1, 0.0, 0.0, 0.0
+983, nets , 0, 0, 1, 0.0, 0.0, 0.0
+984, ppc , 0, 0, 1, 0.0, 0.0, 0.0
+985, structural biology , 0, 0, 1, 0.0, 0.0, 0.0
+986, protein function , 0, 0, 2, 0.0, 0.0, 0.0
+987, pathways , 0, 0, 3, 0.0, 0.0, 0.0
+988, gene function , 0, 0, 1, 0.0, 0.0, 0.0
+989, eur , 0, 0, 1, 0.0, 0.0, 0.0
+990, links , 0, 0, 1, 0.0, 0.0, 0.0
+991, smallworld , 0, 0, 1, 0.0, 0.0, 0.0
+992, drift , 0, 0, 1, 0.0, 0.0, 0.0
+993, ecology , 0, 0, 3, 0.0, 0.0, 0.0
+994, localization , 0, 0, 1, 0.0, 0.0, 0.0
+995, derivative free , 0, 0, 1, 0.0, 0.0, 0.0
+996, path , 0, 0, 1, 0.0, 0.0, 0.0
+997, metaheuristic , 0, 0, 1, 0.0, 0.0, 0.0
+998, evolutionary computation , 0, 0, 1, 0.0, 0.0, 0.0
+999, biomedical , 0, 1, 2, 0.0, 0.0, 0.0
+1000, parameter estimation , 0, 0, 1, 0.0, 0.0, 0.0
+1001, evolution strategies , 0, 0, 1, 0.0, 0.0, 0.0
+1002, topology , 0, 0, 5, 0.0, 0.0, 0.0
+1003, parietal , 0, 0, 1, 0.0, 0.0, 0.0
+1004, neurodynamics , 0, 0, 1, 0.0, 0.0, 0.0
+1005, correlation , 0, 0, 1, 0.0, 0.0, 0.0
+1006, cognitive control , 0, 0, 1, 0.0, 0.0, 0.0
+1007, behavioral control , 0, 0, 1, 0.0, 0.0, 0.0
+1008, developement , 0, 0, 1, 0.0, 0.0, 0.0
+1009, architecture , 0, 0, 2, 0.0, 0.0, 0.0
+1010, rnasoft , 0, 0, 1, 0.0, 0.0, 0.0
+1011, citesme , 0, 0, 1, 0.0, 0.0, 0.0
+1012, olfaction , 0, 0, 1, 0.0, 0.0, 0.0
+1013, coding , 0, 0, 3, 0.0, 0.0, 0.0
+1014, integrate and fire , 0, 0, 1, 0.0, 0.0, 0.0
+1015, sidechains , 0, 0, 1, 0.0, 0.0, 0.0
+1016, identification , 0, 0, 2, 0.0, 0.0, 0.0
+1017, paramestim , 0, 0, 1, 0.0, 0.0, 0.0
+1018, of , 0, 0, 3, 0.0, 0.0, 0.0
+1019, domains , 0, 0, 1, 0.0, 0.0, 0.0
+1020, photography , 0, 0, 1, 0.0, 0.0, 0.0
+1021, photos , 0, 0, 1, 0.0, 0.0, 0.0
+1022, relevance , 0, 0, 1, 0.0, 0.0, 0.0
+1023, web epistemology , 0, 0, 1, 0.0, 0.0, 0.0
+1024, golder , 0, 0, 1, 0.0, 0.0, 0.0
+1025, citation , 0, 0, 2, 0.0, 0.0, 0.0
+1026, must , 0, 2, 1, 0.0, 0.0, 0.0
+1027, huberman , 0, 0, 1, 0.0, 0.0, 0.0
+1028, problems , 0, 0, 1, 0.0, 0.0, 0.0
+1029, network inference , 0, 0, 1, 0.0, 0.0, 0.0
+1030, tutorial , 0, 0, 1, 0.0, 0.0, 0.0
+1031, hubs , 0, 0, 1, 0.0, 0.0, 0.0
+1032, socialsimulation , 0, 0, 1, 0.0, 0.0, 0.0
+1033, socialnetwork , 0, 0, 2, 0.0, 0.0, 0.0
+1034, complexnetwork , 0, 0, 1, 0.0, 0.0, 0.0
+1035, cortical thickness , 1, 0, 0, 1.0, 1.0, 1.0
+1036, mri , 0, 0, 1, 0.0, 0.0, 0.0
+1037, gradu , 0, 0, 1, 0.0, 0.0, 0.0
+1038, animal communication , 0, 0, 1, 0.0, 0.0, 0.0
+1039, language complexity , 0, 0, 1, 0.0, 0.0, 0.0
+1040, constraints , 0, 1, 1, 0.0, 0.0, 0.0
+1041, ip , 0, 0, 3, 0.0, 0.0, 0.0
+1042, cne , 0, 0, 2, 0.0, 0.0, 0.0
+1043, divergence , 0, 0, 2, 0.0, 0.0, 0.0
+1044, binding site , 0, 0, 1, 0.0, 0.0, 0.0
+1045, worms , 0, 0, 1, 0.0, 0.0, 0.0
+1046, phastcons , 0, 0, 1, 0.0, 0.0, 0.0
+1047, insects , 0, 0, 1, 0.0, 0.0, 0.0
+1048, grn , 0, 0, 2, 0.0, 0.0, 0.0
+1049, podcast , 0, 0, 1, 0.0, 0.0, 0.0
+1050, foster , 0, 0, 1, 0.0, 0.0, 0.0
+1051, parallel , 0, 0, 1, 0.0, 0.0, 0.0
+1052, hpc , 0, 0, 1, 0.0, 0.0, 0.0
+1053, computing , 0, 0, 1, 0.0, 0.0, 0.0
+1054, computers , 0, 0, 1, 0.0, 0.0, 0.0
+1055, grid , 0, 0, 1, 0.0, 0.0, 0.0
+1056, argonne , 0, 0, 1, 0.0, 0.0, 0.0
+1057, globusproject , 0, 0, 1, 0.0, 0.0, 0.0
+1058, globus , 0, 0, 1, 0.0, 0.0, 0.0
+1059, misc , 0, 0, 2, 0.0, 0.0, 0.0
+1060, positive selection , 0, 0, 1, 0.0, 0.0, 0.0
+1061, haplotypes , 0, 0, 1, 0.0, 0.0, 0.0
+1062, nssnps , 0, 0, 1, 0.0, 0.0, 0.0
+1063, eeg , 0, 0, 1, 0.0, 0.0, 0.0
+1064, general , 0, 0, 3, 0.0, 0.0, 0.0
+1065, nichola , 0, 0, 2, 0.0, 0.0, 0.0
+1066, brian , 0, 0, 1, 0.0, 0.0, 0.0
+1067, shiva , 0, 0, 1, 0.0, 0.0, 0.0
+1068, episodic memory , 0, 0, 1, 0.0, 0.0, 0.0
+1069, microbial ecology , 0, 0, 1, 0.0, 0.0, 0.0
+1070, marine , 0, 0, 1, 0.0, 0.0, 0.0
+1071, biogeography , 0, 0, 1, 0.0, 0.0, 0.0
+1072, ocean , 0, 0, 2, 0.0, 0.0, 0.0
+1073, climate , 0, 0, 5, 0.0, 0.0, 0.0
+1074, phytoplankton , 0, 0, 1, 0.0, 0.0, 0.0
+1075, drought , 0, 0, 1, 0.0, 0.0, 0.0
+1076, vegetation , 0, 0, 1, 0.0, 0.0, 0.0
+1077, precipitation , 0, 1, 1, 0.0, 0.0, 0.0
+1078, tropics , 0, 0, 1, 0.0, 0.0, 0.0
+1079, carbon , 0, 0, 3, 0.0, 0.0, 0.0
+1080, emissions , 0, 0, 1, 0.0, 0.0, 0.0
+1081, regional , 0, 0, 1, 0.0, 0.0, 0.0
+1082, ipcc , 0, 0, 1, 0.0, 0.0, 0.0
+1083, co , 0, 0, 4, 0.0, 0.0, 0.0
+1084, projections , 0, 0, 1, 0.0, 0.0, 0.0
+1085, sres , 0, 0, 1, 0.0, 0.0, 0.0
+1086, impacts , 0, 0, 1, 0.0, 0.0, 0.0
+1087, dic , 0, 0, 1, 0.0, 0.0, 0.0
+1088, anthropogenic , 0, 0, 2, 0.0, 0.0, 0.0
+1089, sulfur , 0, 0, 1, 0.0, 0.0, 0.0
+1090, atmosphere , 0, 0, 1, 0.0, 0.0, 0.0
+1091, nitrogen , 0, 0, 1, 0.0, 0.0, 0.0
+1092, acidification , 0, 0, 1, 0.0, 0.0, 0.0
+1093, stabilization , 0, 0, 1, 0.0, 0.0, 0.0
+1094, mitigation , 0, 0, 1, 0.0, 0.0, 0.0
+1095, thousand , 0, 0, 1, 0.0, 0.0, 0.0
+1096, the , 0, 0, 1, 0.0, 0.0, 0.0
+1097, alternatives , 0, 0, 1, 0.0, 0.0, 0.0
+1098, tombstone , 0, 0, 1, 0.0, 0.0, 0.0
+1099, is , 0, 0, 1, 0.0, 0.0, 0.0
+1100, a , 0, 0, 1, 0.0, 0.0, 0.0
+1101, site , 0, 0, 1, 0.0, 0.0, 0.0
+1102, bacterial , 0, 0, 2, 0.0, 0.0, 0.0
+1103, eukaryota , 0, 0, 1, 0.0, 0.0, 0.0
+1104, lgt , 0, 0, 1, 0.0, 0.0, 0.0
+1105, synthetic , 0, 0, 1, 0.0, 0.0, 0.0
+1106, compendium , 0, 0, 1, 0.0, 0.0, 0.0
+1107, evolang , 0, 0, 1, 0.0, 0.0, 0.0
+1108, induction , 0, 0, 1, 0.0, 0.0, 0.0
+1109, homo sapiens , 0, 0, 1, 0.0, 0.0, 0.0
+1110, devin presented , 0, 0, 1, 0.0, 0.0, 0.0
+1111, affin cut , 0, 0, 1, 0.0, 0.0, 0.0
+1112, rna secondary structure , 0, 0, 2, 0.0, 0.0, 0.0
+1113, biogegraphy , 0, 0, 1, 0.0, 0.0, 0.0
+1114, models , 0, 0, 5, 0.0, 0.0, 0.0
+1115, ecosystem , 0, 0, 1, 0.0, 0.0, 0.0
+1116, microbial , 0, 0, 1, 0.0, 0.0, 0.0
+1117, communites , 0, 0, 1, 0.0, 0.0, 0.0
+1118, link analysis , 0, 1, 1, 0.0, 0.0, 0.0
+1119, web characterization , 0, 0, 1, 0.0, 0.0, 0.0
+1120, graph characterization , 0, 0, 1, 0.0, 0.0, 0.0
+1121, rpe , 0, 0, 2, 0.0, 0.0, 0.0
+1122, stimulation , 0, 0, 1, 0.0, 0.0, 0.0
+1123, encoding recoding , 0, 0, 1, 0.0, 0.0, 0.0
+1124, neurons , 0, 0, 2, 0.0, 0.0, 0.0
+1125, limitations , 0, 0, 1, 0.0, 0.0, 0.0
+1126, other , 0, 0, 1, 0.0, 0.0, 0.0
+1127, psych , 0, 0, 1, 0.0, 0.0, 0.0
+1128, temporaldiscounting , 0, 0, 1, 0.0, 0.0, 0.0
+1129, online , 0, 0, 1, 0.0, 0.0, 0.0
+1130, emergent , 0, 0, 1, 0.0, 0.0, 0.0
+1131, gcm , 0, 0, 1, 0.0, 0.0, 0.0
+1132, tropical , 0, 0, 1, 0.0, 0.0, 0.0
+1133, scenarios , 0, 0, 1, 0.0, 0.0, 0.0
+1134, global , 0, 0, 2, 0.0, 0.0, 0.0
+1135, china , 0, 0, 1, 0.0, 0.0, 0.0
+1136, oceans , 0, 0, 1, 0.0, 0.0, 0.0
+1137, coastal , 0, 0, 1, 0.0, 0.0, 0.0
+1138, atmospheric deposition , 0, 0, 1, 0.0, 0.0, 0.0
+1139, nitrate , 0, 0, 1, 0.0, 0.0, 0.0
+1140, eutrophication , 0, 0, 1, 0.0, 0.0, 0.0
+1141, alkalinity , 0, 0, 1, 0.0, 0.0, 0.0
+1142, runoff , 0, 0, 1, 0.0, 0.0, 0.0
+1143, hydrology , 0, 0, 1, 0.0, 0.0, 0.0
+1144, evapotranspiration , 0, 0, 1, 0.0, 0.0, 0.0
+1145, rivers , 0, 0, 1, 0.0, 0.0, 0.0
+1146, climate change , 0, 0, 2, 0.0, 0.0, 0.0
+1147, compare genomics , 0, 0, 1, 0.0, 0.0, 0.0
+1148, trn , 0, 0, 2, 0.0, 0.0, 0.0
+1149, tissue specific , 0, 0, 1, 0.0, 0.0, 0.0
+1150, pin , 0, 0, 1, 0.0, 0.0, 0.0
+1151, system biology , 0, 0, 1, 0.0, 0.0, 0.0
+1152, health , 0, 0, 2, 0.0, 0.0, 0.0
+1153, sustainable development , 0, 0, 1, 0.0, 0.0, 0.0
+1154, human population , 0, 0, 1, 0.0, 0.0, 0.0
+1155, human behaviour , 0, 0, 1, 0.0, 0.0, 0.0
+1156, tenure , 0, 0, 1, 0.0, 0.0, 0.0
+1157, kalimantan , 0, 0, 1, 0.0, 0.0, 0.0
+1158, palm oil , 0, 0, 1, 0.0, 0.0, 0.0
+1159, pa effectiveness , 0, 0, 1, 0.0, 0.0, 0.0
+1160, deforestation , 0, 0, 2, 0.0, 0.0, 0.0
+1161, satellite , 0, 0, 1, 0.0, 0.0, 0.0
+1162, borneo , 0, 0, 1, 0.0, 0.0, 0.0
+1163, enso , 0, 0, 1, 0.0, 0.0, 0.0
+1164, great apes , 0, 0, 1, 0.0, 0.0, 0.0
+1165, redd , 0, 0, 1, 0.0, 0.0, 0.0
+1166, biofuel , 0, 0, 1, 0.0, 0.0, 0.0
+1167, wedges , 0, 0, 1, 0.0, 0.0, 0.0
+1168, self similarity , 0, 0, 1, 0.0, 0.0, 0.0
+1169, wolbachia , 0, 0, 1, 0.0, 0.0, 0.0
+1170, hybrids , 0, 0, 1, 0.0, 0.0, 0.0
+1171, trans regulation , 0, 0, 1, 0.0, 0.0, 0.0
+1172, worlds , 0, 0, 1, 0.0, 0.0, 0.0
+1173, e , 0, 0, 1, 0.0, 0.0, 0.0
+1174, organization , 0, 0, 2, 0.0, 0.0, 0.0
+1175, coli , 0, 0, 2, 0.0, 0.0, 0.0
+1176, chipseq , 0, 0, 1, 0.0, 0.0, 0.0
+1177, sequencing , 0, 0, 3, 0.0, 0.0, 0.0
+1178, dna protein interaction , 0, 0, 1, 0.0, 0.0, 0.0
+1179, biotech , 0, 0, 1, 0.0, 0.0, 0.0
+1180, fungi , 0, 0, 4, 0.0, 0.0, 0.0
+1181, adaptation , 0, 0, 1, 0.0, 0.0, 0.0
+1182, stress genes , 0, 0, 1, 0.0, 0.0, 0.0
+1183, transcription factor binding site , 0, 0, 1, 0.0, 0.0, 0.0
+1184, faulty assumptions , 0, 0, 1, 0.0, 0.0, 0.0
+1185, robust , 0, 0, 1, 0.0, 0.0, 0.0
+1186, average , 0, 0, 1, 0.0, 0.0, 0.0
+1187, multichip , 0, 0, 1, 0.0, 0.0, 0.0
+1188, genomic , 0, 0, 7, 0.0, 0.0, 0.0
+1189, functional elements , 0, 0, 1, 0.0, 0.0, 0.0
+1190, sequence analysis , 0, 0, 1, 0.0, 0.0, 0.0
+1191, simultanous recording , 0, 0, 2, 0.0, 0.0, 0.0
+1192, parietal cortex , 0, 0, 2, 0.0, 0.0, 0.0
+1193, nutrition , 0, 0, 1, 0.0, 0.0, 0.0
+1194, decisions , 0, 0, 1, 0.0, 0.0, 0.0
+1195, delicious , 0, 0, 1, 0.0, 0.0, 0.0
+1196, comportamento , 0, 0, 1, 0.0, 0.0, 0.0
+1197, classificazione cooperativa , 0, 0, 1, 0.0, 0.0, 0.0
+1198, utente , 0, 0, 1, 0.0, 0.0, 0.0
+1199, project , 0, 0, 1, 0.0, 0.0, 0.0
+1200, official , 0, 0, 1, 0.0, 0.0, 0.0
+1201, alternative , 0, 0, 1, 0.0, 0.0, 0.0
+1202, sam , 0, 0, 1, 0.0, 0.0, 0.0
+1203, linkage , 0, 1, 1, 0.0, 0.0, 0.0
+1204, oligonucleotide , 0, 0, 1, 0.0, 0.0, 0.0
+1205, exons , 0, 0, 1, 0.0, 0.0, 0.0
+1206, genetic , 0, 2, 1, 0.0, 0.0, 0.0
+1207, sites , 0, 0, 1, 0.0, 0.0, 0.0
+1208, splicing , 0, 0, 1, 0.0, 0.0, 0.0
+1209, techniques , 0, 0, 1, 0.0, 0.0, 0.0
+1210, parser , 0, 0, 1, 0.0, 0.0, 0.0
+1211, gunung palung , 0, 0, 1, 0.0, 0.0, 0.0
+1212, bars , 0, 0, 1, 0.0, 0.0, 0.0
+1213, error , 0, 0, 1, 0.0, 0.0, 0.0
+1214, from kell , 0, 0, 1, 0.0, 0.0, 0.0
+1215, hype , 0, 0, 1, 0.0, 0.0, 0.0
+1216, semantic web , 0, 0, 1, 0.0, 0.0, 0.0
+1217, sequence jockey , 0, 0, 1, 0.0, 0.0, 0.0
+1218, e science , 0, 0, 1, 0.0, 0.0, 0.0
+1219, cyberinfrastructure , 0, 0, 1, 0.0, 0.0, 0.0
+1220, biocorba , 0, 0, 1, 0.0, 0.0, 0.0
+1221, buggotea , 0, 0, 1, 0.0, 0.0, 0.0
+1222, emboss , 0, 0, 1, 0.0, 0.0, 0.0
+1223, clustalw , 0, 0, 1, 0.0, 0.0, 0.0
+1224, afrique , 0, 0, 1, 0.0, 0.0, 0.0
+1225, genetique , 0, 0, 1, 0.0, 0.0, 0.0
+1226, paleoanthropologie , 0, 0, 1, 0.0, 0.0, 0.0
+1227, ibd , 0, 0, 1, 0.0, 0.0, 0.0
+1228, out of africa , 0, 0, 1, 0.0, 0.0, 0.0
+1229, pro replacement , 0, 0, 1, 0.0, 0.0, 0.0
+1230, transcription factors , 0, 0, 2, 0.0, 0.0, 0.0
+1231, protein dna , 0, 0, 1, 0.0, 0.0, 0.0
+1232, tododiss , 0, 0, 1, 0.0, 0.0, 0.0
+1233, usage , 0, 0, 1, 0.0, 0.0, 0.0
+1234, anthropology , 0, 0, 1, 0.0, 0.0, 0.0
+1235, race , 0, 0, 2, 0.0, 0.0, 0.0
+1236, africa , 0, 0, 1, 0.0, 0.0, 0.0
+1237, single origin , 0, 0, 1, 0.0, 0.0, 0.0
+1238, fragmentation , 0, 0, 1, 0.0, 0.0, 0.0
+1239, shuffling , 0, 0, 1, 0.0, 0.0, 0.0
+1240, affymetrix , 0, 0, 1, 0.0, 0.0, 0.0
+1241, recognition , 0, 0, 1, 0.0, 0.0, 0.0
+1242, fold , 0, 0, 3, 0.0, 0.0, 0.0
+1243, multiple , 0, 0, 1, 0.0, 0.0, 0.0
+1244, machinelearning , 0, 0, 1, 0.0, 0.0, 0.0
+1245, deepbeliefnets , 0, 0, 1, 0.0, 0.0, 0.0
+1246, dimensionalityreduction , 0, 0, 1, 0.0, 0.0, 0.0
+1247, unsupervised , 0, 0, 2, 0.0, 0.0, 0.0
+1248, trans , 0, 0, 1, 0.0, 0.0, 0.0
+1249, cis , 0, 1, 1, 0.0, 0.0, 0.0
+1250, human transcription factor , 0, 0, 1, 0.0, 0.0, 0.0
+1251, mendelian , 0, 0, 1, 0.0, 0.0, 0.0
+1252, positiveselection , 0, 0, 1, 0.0, 0.0, 0.0
+1253, motivation , 0, 0, 1, 0.0, 0.0, 0.0
+1254, causation , 0, 0, 1, 0.0, 0.0, 0.0
+1255, causal reasoning , 0, 0, 1, 0.0, 0.0, 0.0
+1256, judgment , 0, 0, 2, 0.0, 0.0, 0.0
+1257, dijksterhuis , 0, 0, 1, 0.0, 0.0, 0.0
+1258, utt , 0, 0, 1, 0.0, 0.0, 0.0
+1259, morality , 0, 0, 1, 0.0, 0.0, 0.0
+1260, agi , 0, 0, 1, 0.0, 0.0, 0.0
+1261, palsson , 0, 0, 1, 0.0, 0.0, 0.0
+1262, regulatory networks , 0, 0, 1, 0.0, 0.0, 0.0
+1263, fba , 0, 0, 1, 0.0, 0.0, 0.0
+1264, ontology , 0, 0, 1, 0.0, 0.0, 0.0
+1265, semanticweb , 0, 0, 1, 0.0, 0.0, 0.0
+1266, knowledgemanagement , 0, 0, 2, 0.0, 0.0, 0.0
+1267, electronic , 0, 0, 1, 0.0, 0.0, 0.0
+1268, neural coding , 0, 0, 1, 0.0, 0.0, 0.0
+1269, cat computer sciences , 0, 0, 1, 0.0, 0.0, 0.0
+1270, protein classification , 0, 0, 1, 0.0, 0.0, 0.0
+1271, grammar induction , 0, 0, 1, 0.0, 0.0, 0.0
+1272, matheco , 0, 0, 1, 0.0, 0.0, 0.0
+1273, cat physics , 0, 0, 1, 0.0, 0.0, 0.0
+1274, signal transduction , 0, 0, 1, 0.0, 0.0, 0.0
+1275, module , 0, 0, 1, 0.0, 0.0, 0.0
+1276, predictor , 0, 0, 1, 0.0, 0.0, 0.0
+1277, visualizations , 0, 0, 1, 0.0, 0.0, 0.0
+1278, top down , 0, 0, 1, 0.0, 0.0, 0.0
+1279, bottom up , 0, 0, 1, 0.0, 0.0, 0.0
+1280, visual search , 0, 0, 1, 0.0, 0.0, 0.0
+1281, visual pop out , 0, 0, 1, 0.0, 0.0, 0.0
+1282, biological theme , 0, 0, 1, 0.0, 0.0, 0.0
+1283, orf , 0, 0, 1, 0.0, 0.0, 0.0
+1284, transcription network , 0, 0, 1, 0.0, 0.0, 0.0
+1285, scholary , 0, 0, 1, 0.0, 0.0, 0.0
+1286, confidence , 0, 0, 1, 0.0, 0.0, 0.0
+1287, promotors , 0, 0, 1, 0.0, 0.0, 0.0
+1288, microrna targets , 0, 0, 1, 0.0, 0.0, 0.0
+1289, actex , 0, 0, 1, 0.0, 0.0, 0.0
+1290, transcription modules , 0, 1, 1, 0.0, 0.0, 0.0
+1291, es , 0, 0, 1, 0.0, 0.0, 0.0
+1292, continuous , 0, 0, 1, 0.0, 0.0, 0.0
+1293, ea , 0, 0, 1, 0.0, 0.0, 0.0
+1294, feedback , 0, 0, 1, 0.0, 0.0, 0.0
+1295, worm , 0, 0, 1, 0.0, 0.0, 0.0
+1296, insect , 0, 0, 1, 0.0, 0.0, 0.0
+1297, tag , 0, 0, 1, 0.0, 0.0, 0.0
+1298, cloud , 0, 0, 1, 0.0, 0.0, 0.0
+1299, lecture , 0, 0, 1, 0.0, 0.0, 0.0
+1300, social search , 0, 0, 1, 0.0, 0.0, 0.0
+1301, lateral transfer , 0, 0, 1, 0.0, 0.0, 0.0
+1302, signatures , 0, 0, 1, 0.0, 0.0, 0.0
+1303, mirna target , 0, 0, 1, 0.0, 0.0, 0.0
+1304, single , 0, 0, 1, 0.0, 0.0, 0.0
+1305, organizations , 0, 0, 1, 0.0, 0.0, 0.0
+1306, persistence , 0, 0, 1, 0.0, 0.0, 0.0
+1307, practices , 0, 0, 1, 0.0, 0.0, 0.0
+1308, evolutionary comparisons , 0, 0, 1, 0.0, 0.0, 0.0
+1309, multiple alignment , 0, 0, 1, 0.0, 0.0, 0.0
+1310, bayesian statistics , 0, 0, 1, 0.0, 0.0, 0.0
+1311, molecular biology techniques , 0, 0, 1, 0.0, 0.0, 0.0
+1312, cross situational , 0, 0, 1, 0.0, 0.0, 0.0
+1313, artificial grammars , 0, 0, 1, 0.0, 0.0, 0.0
+1314, syntactic acquisition , 0, 0, 1, 0.0, 0.0, 0.0
+1315, evolutionary dynamics , 0, 0, 1, 0.0, 0.0, 0.0
+1316, microrna microarray , 0, 0, 1, 0.0, 0.0, 0.0
+1317, cis regulatory , 0, 0, 5, 0.0, 0.0, 0.0
+1318, games , 0, 0, 1, 0.0, 0.0, 0.0
+1319, enrichment , 0, 0, 1, 0.0, 0.0, 0.0
+1320, pathway analysis , 0, 0, 1, 0.0, 0.0, 0.0
+1321, alpha , 0, 0, 1, 0.0, 0.0, 0.0
+1322, oscillation , 0, 0, 1, 0.0, 0.0, 0.0
+1323, gamma , 1, 0, 0, 1.0, 1.0, 1.0
+1324, mirror , 0, 0, 1, 0.0, 0.0, 0.0
+1325, refs snps , 0, 0, 1, 0.0, 0.0, 0.0
+1326, mrbayes , 0, 0, 1, 0.0, 0.0, 0.0
+1327, refs catalytic , 0, 0, 1, 0.0, 0.0, 0.0
+1328, ch , 0, 0, 1, 0.0, 0.0, 0.0
+1329, refs ox , 0, 0, 1, 0.0, 0.0, 0.0
+1330, signalling , 0, 0, 1, 0.0, 0.0, 0.0
+1331, geneorder , 0, 0, 1, 0.0, 0.0, 0.0
+1332, genometrees , 0, 0, 1, 0.0, 0.0, 0.0
+1333, embryonic , 0, 0, 1, 0.0, 0.0, 0.0
+1334, self organisation , 0, 0, 1, 0.0, 0.0, 0.0
+1335, goal directed , 0, 0, 1, 0.0, 0.0, 0.0
+1336, macaque , 0, 0, 1, 0.0, 0.0, 0.0
+1337, eligibility trace , 0, 0, 1, 0.0, 0.0, 0.0
+1338, dopamine cells , 1, 1, 0, 0.5, 1.0, 0.6666666666666666
+1339, energetic , 0, 0, 1, 0.0, 0.0, 0.0
+1340, evolutionarily , 0, 0, 1, 0.0, 0.0, 0.0
+1341, tfnets , 0, 0, 1, 0.0, 0.0, 0.0
+1342, clip , 0, 0, 1, 0.0, 0.0, 0.0
+1343, puces adn , 0, 0, 2, 0.0, 0.0, 0.0
+1344, stat , 0, 0, 3, 0.0, 0.0, 0.0
+1345, genomique , 0, 0, 2, 0.0, 0.0, 0.0
+1346, analyse , 0, 0, 1, 0.0, 0.0, 0.0
+1347, puce adn , 0, 0, 1, 0.0, 0.0, 0.0
+1348, activator , 0, 0, 1, 0.0, 0.0, 0.0
+1349, luciferase , 0, 0, 1, 0.0, 0.0, 0.0
+1350, arac , 0, 0, 1, 0.0, 0.0, 0.0
+1351, operator , 0, 0, 1, 0.0, 0.0, 0.0
+1352, polymerase , 0, 0, 1, 0.0, 0.0, 0.0
+1353, logic , 0, 0, 1, 0.0, 0.0, 0.0
+1354, arabinose , 0, 0, 1, 0.0, 0.0, 0.0
+1355, library , 0, 0, 1, 0.0, 0.0, 0.0
+1356, prokaryote , 0, 0, 1, 0.0, 0.0, 0.0
+1357, repression , 0, 0, 1, 0.0, 0.0, 0.0
+1358, combinatorial , 0, 0, 1, 0.0, 0.0, 0.0
+1359, activation , 0, 0, 1, 0.0, 0.0, 0.0
+1360, lac , 0, 0, 1, 0.0, 0.0, 0.0
+1361, laci , 0, 0, 1, 0.0, 0.0, 0.0
+1362, initiation , 0, 0, 1, 0.0, 0.0, 0.0
+1363, repressor , 0, 0, 1, 0.0, 0.0, 0.0
+1364, physicians , 0, 0, 1, 0.0, 0.0, 0.0
+1365, co citations , 0, 0, 1, 0.0, 0.0, 0.0
+1366, authority , 0, 0, 1, 0.0, 0.0, 0.0
+1367, index , 0, 0, 1, 0.0, 0.0, 0.0
+1368, connections , 0, 0, 1, 0.0, 0.0, 0.0
+1369, webometrics , 0, 0, 1, 0.0, 0.0, 0.0
+1370, webmetrics , 0, 0, 1, 0.0, 0.0, 0.0
+1371, influence , 0, 0, 1, 0.0, 0.0, 0.0
+1372, co citation , 0, 0, 1, 0.0, 0.0, 0.0
+1373, citations , 0, 0, 1, 0.0, 0.0, 0.0
+1374, researchers , 0, 0, 1, 0.0, 0.0, 0.0
+1375, central , 0, 0, 1, 0.0, 0.0, 0.0
+1376, experts , 0, 0, 1, 0.0, 0.0, 0.0
+1377, expert , 0, 0, 1, 0.0, 0.0, 0.0
+1378, discourse , 0, 0, 1, 0.0, 0.0, 0.0
+1379, author influence , 0, 0, 1, 0.0, 0.0, 0.0
+1380, graphing , 0, 0, 1, 0.0, 0.0, 0.0
+1381, bibliography , 0, 0, 1, 0.0, 0.0, 0.0
+1382, pub , 0, 0, 1, 0.0, 0.0, 0.0
+1383, publications , 0, 1, 1, 0.0, 0.0, 0.0
+1384, metrics , 0, 0, 1, 0.0, 0.0, 0.0
+1385, kol , 0, 0, 1, 0.0, 0.0, 0.0
+1386, pubs , 0, 0, 1, 0.0, 0.0, 0.0
+1387, authors , 0, 0, 1, 0.0, 0.0, 0.0
+1388, paper , 0, 0, 1, 0.0, 0.0, 0.0
+1389, kols , 0, 0, 1, 0.0, 0.0, 0.0
+1390, medicine , 0, 0, 1, 0.0, 0.0, 0.0
+1391, indices , 0, 0, 1, 0.0, 0.0, 0.0
+1392, highly cited , 0, 0, 1, 0.0, 0.0, 0.0
+1393, impact , 0, 0, 1, 0.0, 0.0, 0.0
+1394, medical , 0, 3, 1, 0.0, 0.0, 0.0
+1395, mapping , 0, 0, 1, 0.0, 0.0, 0.0
+1396, bibliometrics , 0, 0, 1, 0.0, 0.0, 0.0
+1397, impact factor , 0, 0, 1, 0.0, 0.0, 0.0
+1398, scientometrics , 0, 0, 1, 0.0, 0.0, 0.0
+1399, webliometrics , 0, 0, 1, 0.0, 0.0, 0.0
+1400, literature , 0, 0, 1, 0.0, 0.0, 0.0
+1401, significance , 0, 0, 1, 0.0, 0.0, 0.0
+1402, co authorship , 0, 0, 1, 0.0, 0.0, 0.0
+1403, ranking , 0, 0, 1, 0.0, 0.0, 0.0
+1404, articles , 0, 2, 1, 0.0, 0.0, 0.0
+1405, performance , 0, 0, 1, 0.0, 0.0, 0.0
+1406, sna , 0, 0, 1, 0.0, 0.0, 0.0
+1407, social network analysis , 0, 0, 1, 0.0, 0.0, 0.0
+1408, leaders , 0, 0, 1, 0.0, 0.0, 0.0
+1409, webliography , 0, 0, 1, 0.0, 0.0, 0.0
+1410, citationanalysis , 0, 0, 1, 0.0, 0.0, 0.0
+1411, leader , 0, 0, 1, 0.0, 0.0, 0.0
+1412, author impact , 0, 0, 1, 0.0, 0.0, 0.0
+1413, influential , 0, 0, 1, 0.0, 0.0, 0.0
+1414, key opinion leader , 0, 0, 1, 0.0, 0.0, 0.0
+1415, thought leader , 0, 0, 1, 0.0, 0.0, 0.0
+1416, author , 0, 0, 1, 0.0, 0.0, 0.0
+1417, keyopinionleader , 0, 0, 1, 0.0, 0.0, 0.0
+1418, authorities , 0, 0, 1, 0.0, 0.0, 0.0
+1419, nd order stats , 0, 0, 1, 0.0, 0.0, 0.0
+1420, intermodal perception , 0, 0, 1, 0.0, 0.0, 0.0
+1421, probabilistic perception , 0, 0, 1, 0.0, 0.0, 0.0
+1422, context effects , 0, 0, 1, 0.0, 0.0, 0.0
+1423, haptics , 0, 0, 1, 0.0, 0.0, 0.0
+1424, cue integration , 0, 0, 1, 0.0, 0.0, 0.0
+1425, historical , 0, 0, 1, 0.0, 0.0, 0.0
+1426, words , 0, 0, 2, 0.0, 0.0, 0.0
+1427, lexicography , 0, 0, 1, 0.0, 0.0, 0.0
+1428, ehealth , 0, 0, 1, 0.0, 0.0, 0.0
+1429, publichealth , 0, 0, 1, 0.0, 0.0, 0.0
+1430, comps , 0, 0, 2, 0.0, 0.0, 0.0
+1431, wendy , 0, 0, 1, 0.0, 0.0, 0.0
+1432, all , 0, 0, 3, 0.0, 0.0, 0.0
+1433, editorial , 0, 0, 1, 0.0, 0.0, 0.0
+1434, data sharing , 0, 0, 1, 0.0, 0.0, 0.0
+1435, trends , 0, 0, 1, 0.0, 0.0, 0.0
+1436, jim , 0, 0, 1, 0.0, 0.0, 0.0
+1437, collective knowledge , 0, 0, 1, 0.0, 0.0, 0.0
+1438, km , 0, 1, 1, 0.0, 0.0, 0.0
+1439, knowledge , 0, 0, 2, 0.0, 0.0, 0.0
+1440, hub , 0, 0, 1, 0.0, 0.0, 0.0
+1441, assessment , 0, 0, 1, 0.0, 0.0, 0.0
+1442, visulization , 0, 0, 1, 0.0, 0.0, 0.0
+1443, transpiration , 0, 0, 1, 0.0, 0.0, 0.0
+1444, ecosystem response , 0, 0, 1, 0.0, 0.0, 0.0
+1445, river , 0, 0, 1, 0.0, 0.0, 0.0
+1446, repeats , 1, 0, 1, 1.0, 0.5, 0.6666666666666666
+1447, genome size , 0, 0, 1, 0.0, 0.0, 0.0
+1448, dmel , 0, 0, 1, 0.0, 0.0, 0.0
+1449, flcdna , 0, 0, 1, 0.0, 0.0, 0.0
+1450, urn , 0, 0, 1, 0.0, 0.0, 0.0
+1451, jis , 0, 0, 1, 0.0, 0.0, 0.0
+1452, characterization , 0, 0, 1, 0.0, 0.0, 0.0
+1453, user , 1, 1, 0, 0.5, 1.0, 0.6666666666666666
+1454, temporal , 0, 0, 1, 0.0, 0.0, 0.0
+1455, conditioning , 0, 0, 1, 0.0, 0.0, 0.0
+1456, luc , 0, 0, 1, 0.0, 0.0, 0.0
+1457, forests , 0, 0, 1, 0.0, 0.0, 0.0
+1458, protected areas , 0, 0, 1, 0.0, 0.0, 0.0
+1459, accessibility , 0, 0, 1, 0.0, 0.0, 0.0
+1460, non protein coding , 0, 0, 1, 0.0, 0.0, 0.0
+1461, modification , 0, 0, 1, 0.0, 0.0, 0.0
+1462, histone , 1, 0, 0, 1.0, 1.0, 1.0
+1463, and , 0, 0, 1, 0.0, 0.0, 0.0
+1464, chromatin , 0, 0, 1, 0.0, 0.0, 0.0
+1465, transcripts , 0, 2, 1, 0.0, 0.0, 0.0
+1466, excellent , 0, 0, 1, 0.0, 0.0, 0.0
+1467, sin , 0, 0, 1, 0.0, 0.0, 0.0
+1468, party , 0, 0, 1, 0.0, 0.0, 0.0
+1469, date , 0, 0, 1, 0.0, 0.0, 0.0
+1470, ml , 0, 0, 1, 0.0, 0.0, 0.0
+1471, compling , 0, 0, 1, 0.0, 0.0, 0.0
+1472, compsci , 0, 0, 1, 0.0, 0.0, 0.0
+1473, hap perception , 0, 0, 1, 0.0, 0.0, 0.0
+1474, vis perception , 0, 0, 1, 0.0, 0.0, 0.0
+1475, cogsci , 0, 0, 2, 0.0, 0.0, 0.0
+1476, cited , 0, 0, 3, 0.0, 0.0, 0.0
+1477, multiplealign , 0, 0, 1, 0.0, 0.0, 0.0
+1478, recon , 0, 0, 1, 0.0, 0.0, 0.0
+1479, dorsal , 0, 0, 1, 0.0, 0.0, 0.0
+1480, ventral , 0, 0, 1, 0.0, 0.0, 0.0
+1481, speech , 0, 0, 1, 0.0, 0.0, 0.0
+1482, concepts , 0, 0, 1, 0.0, 0.0, 0.0
+1483, acquisition , 0, 0, 1, 0.0, 0.0, 0.0
+1484, gwas , 0, 0, 1, 0.0, 0.0, 0.0
+1485, cisreg , 0, 0, 1, 0.0, 0.0, 0.0
+1486, eukaryotes , 0, 0, 1, 0.0, 0.0, 0.0
+1487, have as pdf , 0, 0, 1, 0.0, 0.0, 0.0
+1488, genome evolution , 0, 0, 2, 0.0, 0.0, 0.0
+1489, mutation rate , 0, 1, 2, 0.0, 0.0, 0.0
+1490, cns , 0, 0, 1, 0.0, 0.0, 0.0
+1491, binfo , 0, 0, 1, 0.0, 0.0, 0.0
+1492, neuro , 0, 0, 1, 0.0, 0.0, 0.0
+1493, journalscan , 0, 0, 1, 0.0, 0.0, 0.0
+1494, social science , 0, 0, 1, 0.0, 0.0, 0.0
+1495, anth , 0, 0, 1, 0.0, 0.0, 0.0
+1496, milgram , 0, 0, 1, 0.0, 0.0, 0.0
+1497, psycholinguistics , 0, 0, 2, 0.0, 0.0, 0.0
+1498, graph based analysis , 0, 0, 2, 0.0, 0.0, 0.0
+1499, reconstruct pathway , 0, 0, 1, 0.0, 0.0, 0.0
+1500, multiple data sources , 0, 0, 1, 0.0, 0.0, 0.0
+1501, high throughput dataset , 0, 0, 2, 0.0, 0.0, 0.0
+1502, dense overlapping regulon , 0, 0, 1, 0.0, 0.0, 0.0
+1503, feedforward , 0, 0, 1, 0.0, 0.0, 0.0
+1504, e coli , 0, 0, 1, 0.0, 0.0, 0.0
+1505, systems approach , 0, 0, 1, 0.0, 0.0, 0.0
+1506, gene order , 0, 0, 1, 0.0, 0.0, 0.0
+1507, design principles , 0, 0, 1, 0.0, 0.0, 0.0
+1508, multimodal , 0, 0, 1, 0.0, 0.0, 0.0
+1509, crossmodal , 0, 0, 1, 0.0, 0.0, 0.0
+1510, bcs , 0, 0, 1, 0.0, 0.0, 0.0
+1511, week , 0, 0, 1, 0.0, 0.0, 0.0
+1512, headturn , 0, 0, 1, 0.0, 0.0, 0.0
+1513, statisticallearning , 0, 0, 2, 0.0, 0.0, 0.0
+1514, syllables , 0, 0, 1, 0.0, 0.0, 0.0
+1515, transitionalprobabilities , 0, 0, 1, 0.0, 0.0, 0.0
+1516, redundancy , 0, 0, 1, 0.0, 0.0, 0.0
+1517, lif , 0, 0, 1, 0.0, 0.0, 0.0
+1518, strf , 0, 0, 1, 0.0, 0.0, 0.0
